@@ -1,0 +1,22 @@
+{
+    "title": {
+        "uz":"Ishlab chiqaruvchidan sifatli fanera",
+        "ru":"Качественная фанера от производителя",    
+        "en":"Quality plywood from the manufacturer"
+    },
+    "description":{
+        "uz":"Kompaniyamizning asosiy faoliyati jahon standartlariga javob beradigan, yuqori sifatli materiallardan tayyorlangan va zamonaviy yog'ochga ishlov berish texnologiyalaridan foydalangan holda etakchi rus ishlab chiqaruvchilarining faneralarini ulgurji sotishdan iborat. Mahsulot sifati Rossiya va Yevropa standartlariga toʻliq javob beradi. Shuningdek, biz tabiiy yog'ochdan tayyorlangan egilgan yopishtirilgan laminatsiyalangan lamellarning keng assortimentini ishlab chiqaramiz. Bizning mijozlarimiz kichik biznesdan tortib yirik sanoat korxonalarigacha.",
+        "ru":"Основная деятельность нашей компании заключается в оптовой продаже фанеры от ведущих российских производителей, изготовленной из высококачественных материалов и с использованием современных технологий обработки древесины, соответствующих мировым стандартам. Качество продукции полностью соответствует российским и европейским стандартам. Также мы производим широкий ассортимент ламелей из натуральной древесины, склеенных и ламинированных. Наши клиенты варьируются от малого бизнеса до крупных промышленных предприятий.",
+        "en":"The main activity of our company is the wholesale of plywood from leading Russian manufacturers, made from high-quality materials and using modern wood processing technologies that meet world standards. The quality of the products fully complies with Russian and European standards. We also produce a wide range of laminated glued lamellae made from natural wood. Our clients range from small businesses to large industrial enterprises."
+    },
+    "start":{
+        "uz":"Fanera katalogi",
+        "ru":"Каталог фанеры",
+        "en":"Plywood Catalog"
+    },
+    "button":{
+        "uz":"Batafsil",
+        "ru":"Подробнее",
+        "en":"More details"
+    }
+}

@@ -1,0 +1,29 @@
+[
+        {
+            "title": {
+                "uz": "Fanera",
+                "ru": "Фанеры",
+                "en": "Playwood"
+            },
+            "_id": "69a1272c4f7c8ee695a4d85e",
+            "__v": 0
+        },
+        {
+            "title": {
+                "uz": "Plitalar uchun materiallar",
+                "ru": "Плитные материалы",
+                "en": "Slab Materials"
+            },
+            "_id": "69a127894f7c8ee695a4d861",
+            "__v": 0
+        },
+        {
+            "title": {
+                "uz": "Taxtalar",
+                "ru": "Доски",
+                "en": "Wood boards"
+            },
+            "_id": "69a127f14f7c8ee695a4d863",
+            "__v": 0
+        }
+    ]

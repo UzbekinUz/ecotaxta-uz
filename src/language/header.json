@@ -1,0 +1,14 @@
+{
+    "links": {
+        "delivery": {
+            "uz": "Yetkazib berish",
+            "ru": "Доставка",
+            "en": "Delivery"
+        },
+        "contact": {
+            "uz": "Aloqa ma'lumotlari",
+            "ru": "Контакты",
+            "en": "Contact"
+        }
+    }   
+}

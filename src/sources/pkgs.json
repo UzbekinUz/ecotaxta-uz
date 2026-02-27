@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Basic health check-up for men",
+    "desc": "This check-up is designed to assess overall wellness and detect early signs of common health issues.",
+    "target": "Men"
+  },
+  {
+    "title": "Basic health check-up for women",
+    "desc": "This package is designed to support early detection and prevention of common health issues in women.",
+    "target": "Women"
+  },
+  {
+    "title": "Complete health check-up for men",
+    "desc": "This is a thorough and wide-ranging medical assessment and includes multiple specialist consultations, diagnostic imaging, and comprehensive laboratory tests.",
+    "target": "Men"
+  }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "title": {
+            "uz":"Qulay narxlar",
+            "ru":"Удобные цены",
+            "en":"Affordable Prices"
+        },
+        "description": {
+            "uz":"FC faneraining eng past narxlaridan biri nafaqat Toshkentda.",
+            "ru":"Одни из самых низких цен на фанеру FC не только в Ташкенте.",
+            "en":"One of the lowest prices for FC plywood not only in Tashkent."
+        },
+        "icon": "/featureSvg/money1.svg"
+    },
+    {
+        "title": {
+            "uz":"Sifat",
+            "ru":"Качество",
+            "en":"Quality"
+        },
+        "description": {
+            "uz":"Barcha mahsulotlar uchun biz kafolat beramiz va sifatli sertifikatlarni taqdim etamiz.",
+            "ru":"Мы предоставляем гарантию на все наши продукты и предоставляем качественные сертификаты.",
+            "en":"We provide warranty on all our products and offer high-quality certificates."
+        },
+        "icon": "/featureSvg/quility.svg"
+    },
+    {
+        "title": {
+            "uz":"Tez etkazib berish",
+            "ru":"Быстрая доставка",
+            "en":"Fast Delivery"
+        },
+        "description": {
+            "uz":"Shaharda qo'ng'iroq orqali etkazib berish mumkin. Yuk ko'taruvchilarning xizmatlari.",
+            "ru":"Доставка возможна по городу по звонку. Услуги грузчиков.",
+            "en":"Delivery is available in the city by phone. Loader services." 
+        },
+        "icon":"/featureSvg/fastDelivery1.svg"
+    },{
+        "title": {
+            "uz":"Yuk tashish",
+            "ru":"Перевозка грузов",
+            "en":"Cargo Transportation"
+        },
+        "description": {
+            "uz":"Rossiyadagi etakchi ishlab chiqaruvchilar tomonidan to'g'ridan-to'g'ri etkazib berish."   ,
+            "ru":"Прямые поставки от ведущих производителей в России.",
+            "en":"Direct deliveries from leading manufacturers in Russia."
+        },
+        "icon": "/featureSvg/cargo.svg"
+    },{
+        "title":{
+            "uz":"Bonuslar va chegirmalar",
+            "ru":"Бонусы и скидки",
+            "en":"Bonuses and Discounts"
+        },
+        "description":{
+            "uz":"Doimiy ulgurji xaridorlar uchun biz chegirmalar tizimini ishlab chiqdik, bu esa hamkorlikni yanada foydali qiladi.",
+            "ru":"Для постоянных клиентов мы разработали систему скидок, что делает сотрудничество еще более выгодным.",
+            "en":"We have developed a discount system for our regular customers, making cooperation even more beneficial."
+        },
+        "icon": "/featureSvg/discount1.svg"
+    }
+]
