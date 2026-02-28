@@ -3,10 +3,9 @@ import { useState } from "react";
 import title from "../static/title.png";
 import category from "../data/categories.json";
 import products from "../data/products.json";
-
 import header from "../language/header.json";
 import Changer from "../helper/languageChanger";
-function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
+function Navbar({ lang, setLang, setPage}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -40,7 +39,7 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <div className="shrink-0 flex items-center cursor-pointer">
-              <img className="w-75" src={title} alt="logo" />
+              <img className="w-50 md:w-75" src={title} alt="logo" />
             </div>
           </div>
 
@@ -53,7 +52,7 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
               >
                 <button
                   onClick={() => {
-                    setOpenCat({ status: true, id: item._id });
+                    setPage({ status: "category", id: item._id });
                   }}
                   className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-700 group-hover:text-blue-600 transition-colors"
                 >
@@ -70,9 +69,8 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
                           d.category === item._id && (
                             <a
                               key={index}
-                              href="#"
                               onClick={() => {
-                                setOpenInfo({ status: true, id: d._id });
+                                setPage({ status: "product", id: d._id });
                               }}
                               className="flex border items-start gap-4 p-3 rounded-xl hover:bg-blue-50 transition-colors group/item"
                             >
@@ -90,13 +88,15 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
               </div>
             ))}
             <a
-              href="#delivery"
+              href='#delivery'
+              onClick={() => setPage({ status: "home", id: "" })}
               className="text-gray-600 lg:text-sm hover:text-emerald-600 font-medium transition-colors"
             >
               {Lang(header.links.delivery)}
             </a>
             <a
               href="#contact"
+              onClick={() => setPage({ status: "home", id: "" })}
               className="text-gray-600 lg:text-sm ml-4 hover:text-emerald-600 font-medium transition-colors"
             >
               {Lang(header.links.contact)}
@@ -132,7 +132,7 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
               >
                 <button
                   onClick={() => {
-                    setOpenCat({ status: true, id: item._id });
+                    setPage({ status: "category", id: item._id });
                   }}
                   className="flex  items-center gap-1 px-4 py-1 text-[16px] font-medium text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 transition-colors"
                 >
@@ -147,7 +147,7 @@ function Navbar({ lang, setLang, setOpenInfo, setOpenCat}) {
                           key={index}
                           href="#"
                           onClick={() => {
-                            setOpenInfo({ status: true, id: d._id });
+                            setPage({ status: "product", id: d._id });
                           }}
                           className="flex items-start  gap-4 py-1 px-3 hover:bg-red-200 transition-colors "
                         >

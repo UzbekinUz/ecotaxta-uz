@@ -1,6 +1,5 @@
 import { Check, ChevronDown, Globe } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-
 function Changer({ lang, setLang, isOpenMenu }) {
   const dropdownRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +22,7 @@ function Changer({ lang, setLang, isOpenMenu }) {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center bg-emerald-600 text-white px-6 py-2.5 rounded-md font-medium hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-600/30"
+        className="flex items-center bg-emerald-600 text-white px-2 py-2 rounded-md font-medium hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-600/30"
       >
         <Globe className="w-4 h-4 text-white mr-1" />
         <span className="text-sm font-semibold uppercase">{lang}</span>
@@ -35,7 +34,7 @@ function Changer({ lang, setLang, isOpenMenu }) {
       {/* Dropdown Menu */}
       {isOpen && (
         isOpenMenu? (
-          <div className="absolute right-0 w-48 bg-white border border-gray-100 rounded-xl shadow-xl py-2 animate-in fade-in zoom-in duration-200">
+          <div className="absolute right-0 bottom-[-1] w-48 bg-white border border-gray-100 rounded-xl shadow-xl py-2 animate-in fade-in zoom-in duration-200">
             {languages.map((lan) => (
               <button
                 key={lan.code}
