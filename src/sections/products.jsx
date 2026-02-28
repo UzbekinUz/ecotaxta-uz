@@ -1,12 +1,10 @@
 import Product from "../data/products.json";
 import productTxt from "../language/productTitle.json";
 import categories from "../data/categories.json";
-import { useState } from "react";
 function Products({ lang }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
-  const [info, setInfo] = useState('');
   return (
     <section id="products" className="py-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,12 +22,12 @@ function Products({ lang }) {
 
         <div className="flex flex-wrap sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {categories.map((ctg, key) => (
-            <>
+            <div key={key}>
               <h2 className="text-base text-emerald-600 font-bold tracking-wide uppercase">
                 {Lang(ctg.title)}
               </h2>
               <div
-                key={key}
+                
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
               >
                 {Product.map((product, key) => {
@@ -93,7 +91,6 @@ function Products({ lang }) {
                           <div className="flex justify-between items-center mt-6 pt-4 border-t border-gray-100">
                             <a
                               href="#contact"
-                              onClick={()=>{setInfo(product._id)}}
                               className="text-emerald-600 hover:text-emerald-800 font-bold p-2 bg-emerald-50 rounded-lg transition-colors"
                             >
                               {Lang(productTxt.button)}
@@ -109,7 +106,7 @@ function Products({ lang }) {
 
                 {/* CTA in Grid */}
               </div>
-            </>
+            </div>
           ))}
 
           {/* CTA in Grid */}

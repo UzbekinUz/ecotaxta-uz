@@ -1,7 +1,7 @@
 import { Check, ChevronDown, Globe } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-function Changer({ lang, setLang }) {
+function Changer({ lang, setLang, isOpenMenu }) {
   const dropdownRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const languages = [
@@ -34,26 +34,47 @@ function Changer({ lang, setLang }) {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-100 rounded-xl shadow-xl py-2 animate-in fade-in zoom-in duration-200">
-          {languages.map((lan) => (
-            <button
-              key={lan.code}
-              onClick={() => setLang(lan.code)}
-              className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-colors hover:bg-blue-50 ${
-                lang === lan.code
-                  ? "text-blue-600 bg-blue-50/50"
-                  : "text-gray-700"
-              }`}
-            >
-              <div className="flex items-center">
-                <span className="mr-3 text-lg">{lan.flag}</span>
-                <span className="font-medium">{lan.name}</span>
-              </div>
-              {lang === lan.code && <Check className="w-4 h-4" />}
-            </button>
-          ))}
-        </div>
-      )}
+        isOpenMenu? (
+          <div className="absolute right-0 w-48 bg-white border border-gray-100 rounded-xl shadow-xl py-2 animate-in fade-in zoom-in duration-200">
+            {languages.map((lan) => (
+              <button
+                key={lan.code}
+                onClick={() => setLang(lan.code)}
+                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-colors hover:bg-blue-50 ${
+                  lang === lan.code
+                    ? "text-blue-600 bg-blue-50/50"
+                    : "text-gray-700"
+                }`}
+              >
+                <div className="flex items-center">
+                  <span className="mr-3 text-lg">{lan.flag}</span>
+                  <span className="font-medium">{lan.name}</span>
+                </div>
+                {lang === lan.code && <Check className="w-4 h-4" />}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="absolute left-0 mt-2 w-48 bg-white border border-gray-100 rounded-xl shadow-xl py-2 animate-in fade-in zoom-in duration-200">
+            {languages.map((lan) => (
+              <button
+                key={lan.code}
+                onClick={() => setLang(lan.code)}
+                className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-colors hover:bg-blue-50 ${
+                  lang === lan.code
+                    ? "text-blue-600 bg-blue-50/50"
+                    : "text-gray-700"
+                }`}
+              >
+                <div className="flex items-center">
+                  <span className="mr-3 text-lg">{lan.flag}</span>
+                  <span className="font-medium">{lan.name}</span>
+                </div>
+                {lang === lan.code && <Check className="w-4 h-4" />}
+              </button>
+            ))}
+          </div>)
+        )}
     </div>
   );
 }

@@ -3,7 +3,6 @@ import TopBar from "./components/topBar";
 import Navbar from "./components/navbar";
 import Features from "./sections/features";
 import Home from "./sections/home";
-import About from "./sections/about";
 import Products from "./sections/products";
 import CTA from "./sections/CTA";
 import Footer from "./components/footer";
@@ -20,7 +19,7 @@ const App = () => {
     // 8 soniyadan keyin setLoading(false) qiladigan taymer
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 7222); // 8000 ms = 8 soniya
+    }, 0); // 8000 ms = 8 soniya
 
     // Komponent o'chirilganda (unmount) taymerni tozalash
     // Bu xotira xatolarining oldini oladi
@@ -32,7 +31,7 @@ const App = () => {
   ) : (
     <div className="min-h-screen bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
       <TopBar lang={lang} />
-      <Navbar lang={lang} setLang={setLang} />
+      <Navbar lang={lang} setLang={setLang} setOpenInfo={setOpenInfo} setOpenCat={setOpenCat} openCat={openCat} openInfo={openInfo} />
       <Home lang={lang} setOpenCat={setOpenCat}/>
       <Features lang={lang} />
       {/* <About lang={lang} /> */}
