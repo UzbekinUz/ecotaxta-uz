@@ -1,0 +1,129 @@
+{
+    "title": {
+        "ru": "Условия доставки",
+        "uz": "Yetkazib berish shartlari",
+        "en": "Delivery terms"
+    },
+    "terms": {
+        "uz":"Biz xaridorlar sotib olingan materiallarni tanlash imkoniyatidan har doim ham rozi bo'lishini tushunamiz. Va ko'pincha fanerani etkazib berish nafaqat Toshkent va Toshkent viloyatida, balki O'zbekistonning boshqa, ko'pincha chekka hududlarida ham talab qilinadi. Shu sababli bizning kompaniyamiz menejerlari nafaqat fanerani tanlashda va sotib olishda yordam berish bilan birga, mahsulotni xaridorga eng qulay shartlarda O'zbekistonning istalgan joyiga etkazib berish uchun logistika zanjirini barpo etishadi.",
+        "ru": "Мы понимаем, что далеко не всегда наших клиентов устраивает вариант самовывоза приобретенных материалов. И очень часто доставка фанеры требуется не только по Ташкенту и Ташкентской области, но и в другие, нередко отдаленные, регионы Узбекистана. Поэтому менеджеры нашей компании окажут помощь не только в выборе и приобретении фанеры, но и выстроят логистическую цепочку по доставке продукции в любою точку Узбекистана на самых выгодных для заказчика условиях.",
+        "en": "We understand that our customers are not always satisfied with the option of picking up the purchased materials. And very often, plywood delivery is required not only in Tashkent and Tashkent region, but also in other, often remote, regions of Uzbekistan. Therefore, our company managers will assist not only in the selection and purchase of plywood, but also will build a logistics chain for delivering products to any point in Uzbekistan on the most favorable terms for the customer."
+    },
+    "txt":{
+        "ru":"Цены на доставку",
+        "uz":"Yetkazib berish narxlari",
+        "en":"Shipping prices"
+    },
+    "schema": [
+        {
+            "volume": {
+                "ru": "До 1500 кг",
+                "uz": "1500 kg gacha",
+                "en": "Up to 1500 kg"
+            },
+            "tct": {
+                "ru": "От 100 000 сум.",
+                "uz": "100 000 сум гача",
+                "en": "From 100 000 sums"
+            },
+            "upTo30": {
+                "ru": "150 000 сум.",
+                "uz": "150 000 сум гача",
+                "en": "150,000 sums"
+            },
+            "above30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            }
+        },
+        {
+            "volume": {
+                "ru": "От 1500 до 5000 кг",
+                "uz": "1500 dan 5000 kg gacha",
+                "en": "From 1500 to 5000 kg"
+            },
+            "tct": {
+                "ru": "От 125 428 сум.",
+                "uz": "125 428 сум гача",
+                "en": "From 125,428 sums"
+            },
+            "upTo30": {
+                "ru": "157 786 сум.",
+                "uz": "157 786 сум гача",
+                "en": "157,786 sums"
+            },
+            "above30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            }
+        },
+        {
+            "volume": {
+                "ru": "От 5 до 12,24 тонн",
+                "uz": "5 dan 12,24 tonna gacha",
+                "en": "From 5 to 12,24 tons"
+            },
+            "tct": {
+                "ru": "От 12,24 до 24,48 кг",
+                "uz": "12,24 дан 24,48 кг гача",
+                "en": "From 12,24 to 24,48 kg"
+            },
+            "upTo30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            },
+            "above30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            }
+        },
+        {
+            "volume": {
+                "ru": "От 15 до 25 тонн",
+                "uz": "15 dan 25 tonna gacha",
+                "en": "From 15 to 25 tons"
+            },
+            "tct": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            },
+            "upTo30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            },
+            "above30": {
+                "ru": "Договорная",
+                "uz": "Шартнома",
+                "en": "Negotiable"
+            }
+        }
+    ],
+    "table":{
+        "volume": {
+            "ru": "Объем",
+            "uz": "Hajmi",
+            "en": "Volume"
+        },
+        "tct": {
+            "ru": "Ташкент и Ташкентская область",
+            "uz": "Toshkent va Toshkent viloyati",
+            "en": "Tashkent and Tashkent region"
+        },
+        "upTo30": {
+            "ru": "До 30 км от Ташкента",
+            "uz": "Toshkentdan 30 km gacha",
+            "en": "Up to 30 km from Tashkent"
+        },
+        "above30": {
+            "ru": "Более 30 км от Ташкента",
+            "uz": "Toshkentdan 30 km dan ortiq",
+            "en": "More than 30 km from Tashkent"
+        }
+    }
+}

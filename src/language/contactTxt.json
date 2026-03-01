@@ -1,0 +1,42 @@
+{
+    "tit1": {
+        "ru": "Режим работы",
+        "uz": "Ish vaqti",
+        "en": "Working Hours"
+    },
+    "day": {
+        "ru": "Рабочие дни",
+        "uz": "Ish kunlari",
+        "en": "Working days"
+    },
+    "holi": {
+        "ru": "Выходной",
+        "uz": "Dam olish kunlari",
+        "en": "Weekend"
+    },
+    "mini": {
+        "ru": "Отдых",
+        "uz": "Dam olish",
+        "en": "Rest"
+    },
+    "callMe": {
+        "ru": "Свяжитесь с нами",
+        "uz": "Biz bilan bog'laning",
+        "en": "Contact us"
+    },
+    "contact":{
+        "ru":"Контакты",
+        "uz":"Kontaktlar",
+        "en":"Contacts"
+    },
+    "phone": {
+        "ru": "Наши телефоны",
+        "uz": "Bizning telefonlarimiz",
+        "en": "Our phones"
+    },
+    "email": {
+        "ru": "Электронная почта",
+        "uz": "Bizning elektron pochtamiz",
+        "en": "Our emails"
+    }
+}

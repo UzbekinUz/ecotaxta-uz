@@ -1,113 +1,119 @@
-function Footer() {
-    return ( <footer className="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-      <div className="col-span-1 md:col-span-2">
-        <div className="flex items-center mb-4 cursor-pointer">
-          <span className="text-3xl font-black text-emerald-500 tracking-tighter">
-            ECO
-          </span>
-          <span className="text-3xl font-black text-white tracking-tighter ml-1">
-            TAXTA
-          </span>
+import {
+  ChevronRight,
+  Smartphone,
+  MapPin,
+  Mail,
+} from "lucide-react";
+import footerTxt from "../language/footerTxt.json";
+import catalog from "../data/categories.json";
+import products from "../data/products.json";
+function Footer({ lang, setPage }) {
+  
+  function Lang(address) {
+    return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
+  }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Silliq harakat
+    });
+  };
+  return (
+    <footer className="bg-[#333333] text-white pt-16 pb-8 px-4 md:px-10 border-t border-gray-800">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-flow-row-dense lg:grid-cols-4 grid-rows-auto md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5   ">
+          {/* Column 1: Plywood */}
+          {catalog.map((item, key) => (
+            <div
+              key={key}
+              className="relative min-h-10 flex flex-col items-start gap-1 h-full z-10 "
+            >
+              <a
+              href="#"
+                onClick={() => {
+                  setPage({ status: "category", id: item._id });
+                  scrollToTop();
+                }}
+                className="text-lg cursor-pointer font-bold mb-6 text-start border-b border-gray-700 pb-2"
+              >
+                {Lang(item.title)}
+              </a>
+              <div className="ml-1 mb-3 flex  flex-col items-start justify-start p-0 gap-1 space-y-3">
+                {products.map(
+                  (d, key) =>
+                    d.category === item._id && (
+                      <a
+                        key={key}
+                        href="#"
+                        onClick={() => {
+                          setPage({ status: "product",id: d._id });
+                          scrollToTop();
+                        }}
+                        className="text-gray-400 hover:text-[#F58220] hover:underline text-sm flex items-center group"
+                      >
+                        {Lang(d.name)}
+                      </a>
+                    ),
+                )}
+              </div>
+            </div>
+          ))}
+          <div>
+            <h4 className="text-lg font-bold mb-6 border-b border-gray-700 pb-2">
+              Связаться с нами
+            </h4>
+            <div className="space-y-5">
+              <div className="flex items-start gap-4">
+                <div className="mt-1 bg-gray-800 p-2 rounded-sm text-[#F58220]">
+                  <Smartphone size={18} />
+                </div>
+                <div>
+                  <a
+                    href="tel:+998900809000"
+                    className="block text-gray-300 hover:text-white transition-colors"
+                  >
+                    +998 90 080 90 00
+                  </a>
+                  <a
+                    href="tel:+998907122080"
+                    className="block text-gray-300 hover:text-white transition-colors"
+                  >
+                    +998 90 712 20 80
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="mt-1 bg-gray-800 p-2 rounded-sm text-[#F58220]">
+                  <MapPin size={18} />
+                </div>
+                <p className="text-gray-300">Узбекистан, Ташкент</p>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="mt-1 bg-gray-800 p-2 rounded-sm text-[#F58220]">
+                  <Mail size={18} />
+                </div>
+                <a
+                  href="mailto:ecotaxta@mail.ru"
+                  className="text-gray-300 hover:text-[#F58220] transition-colors border-b border-gray-700"
+                >
+                  ecotaxta@mail.ru
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="text-sm text-gray-400 max-w-xs">
-          OOO ECO TAXTA - qurilish va mebel sanoati uchun yuqori sifatli yog'och
-          materiallarini ulgurji sotishga ixtisoslashgan yetakchi kompaniya.
+      </div>
+
+      {/* Bottom Copyright Area */}
+      <div className="pt-8 border-t border-green-200 flex justify-center items-start text-xs font-medium text-gray-500">
+        <p className="uppercase tracking-wider">
+          {Lang(footerTxt.title)}
         </p>
       </div>
-
-      <div>
-        <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">
-          Kompaniya
-        </h4>
-        <ul className="space-y-2 text-sm">
-          <li>
-            <a
-              href="#home"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Asosiy
-            </a>
-          </li>
-          <li>
-            <a
-              href="#about"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Biz haqimizda
-            </a>
-          </li>
-          <li>
-            <a
-              href="#products"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Mahsulotlar
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contact"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Aloqa
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">
-          Mahsulotlar
-        </h4>
-        <ul className="space-y-2 text-sm">
-          <li>
-            <a
-              href="#products"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Laminatsiyalangan Fanera
-            </a>
-          </li>
-          <li>
-            <a
-              href="#products"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              Qayin Fanerasi
-            </a>
-          </li>
-          <li>
-            <a
-              href="#products"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              OSB Plitalari
-            </a>
-          </li>
-          <li>
-            <a
-              href="#products"
-              className="hover:text-emerald-400 transition-colors"
-            >
-              DSP va DVP
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-      <p>
-        &copy; {new Date().getFullYear()} OOO ECO TAXTA. Barcha huquqlar
-        himoyalangan.
-      </p>
-      <p className="mt-2 md:mt-0">Toshkent, O'zbekiston</p>
-    </div>
-  </div>
-</footer>
- );
+    </footer>
+  );
 }
 
 export default Footer;
