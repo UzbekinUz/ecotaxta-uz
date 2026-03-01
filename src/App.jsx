@@ -20,7 +20,7 @@ const App = () => {
     // 8 soniyadan keyin setLoading(false) qiladigan taymer
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 0); // 8000 ms = 8 soniya
+    }, 7222); // 8000 ms = 8 soniya
 
     // Komponent o'chirilganda (unmount) taymerni tozalash
     // Bu xotira xatolarining oldini oladi
