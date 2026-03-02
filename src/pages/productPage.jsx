@@ -1,7 +1,7 @@
+import { StepBack } from "lucide-react";
 import products from "../data/products.json";
 import ProductSlideBar from "../helper/productSlideBar";
-function ProductPage({ lang, page, setPage }) {
-  
+function ProductPage({ lang, page, setPage,back,setBack }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -13,42 +13,38 @@ function ProductPage({ lang, page, setPage }) {
     });
   };
   return (
-    <section className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-gray-50 py-6 md:py-12 px-4 sm:px-6 relative lg:px-8">
+      <div className="absolute h-full inset-0 opacity-3 ">
+        <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern
+              id="pattern"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M0 40L40 0H20L0 20M40 40V20L20 40"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#pattern)" />
+        </svg>
+      </div>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className=" md:max-w-7xl w-full lg:col-span-3 ">
-            <div className="bg-red-50 rounded-2xl p-10 shadow-sm border border-gray-100 overflow-hidden relative">
-              <div className="absolute h-full inset-0 opacity-3 ">
-                <svg
-                  className="w-full h-full"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <pattern
-                      id="pattern"
-                      width="40"
-                      height="40"
-                      patternUnits="userSpaceOnUse"
-                    >
-                      <path
-                        d="M0 40L40 0H20L0 20M40 40V20L20 40"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                      />
-                    </pattern>
-                  </defs>
-                  <rect width="100%" height="100%" fill="url(#pattern)" />
-                </svg>
-              </div>
-              {products.map((product,key) => {
-                
+            <div className="bg-red-50 rounded-2xl p-3 md:p-10 shadow-sm border border-gray-100 overflow-hidden relative">
+              {products.map((product, key) => {
                 if (product._id === page.id) {
                   return (
                     <div key={key}>
                       <div className="flex flex-col md:flex-row relative z-10">
                         {/* Mahsulot rasmi */}
-                        <div className="md:max-w-100 w-full h-70 flex items-center justify-center bg-red-100">
+                        <div className="md:max-w-100 w-full h-70 flex rounded-2xl items-center justify-center bg-red-100">
                           <img
                             src={product.img}
                             alt={Lang(product.name)}
@@ -57,7 +53,7 @@ function ProductPage({ lang, page, setPage }) {
                         </div>
 
                         {/* Mahsulot qisqa ma'lumoti */}
-                        <div className="md:w-1/2 p-8  flex flex-col justify-between">
+                        <div className="md:w-1/2 p-3 md:p-8  flex flex-col justify-between">
                           <div>
                             <nav className="text-sm text-blue-600 font-medium mb-2 uppercase tracking-wide">
                               {lang === "uz"
@@ -76,19 +72,40 @@ function ProductPage({ lang, page, setPage }) {
                           </div>
 
                           <div className="flex flex-col gap-4">
-                            <button onClick={()=>{setPage({status:"contact",id:""})}} className="w-full bg-red-400 hover:bg-red-700 cursor-pointer text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]">
+                            <button
+                              onClick={() => {
+                                setBack({status:"product", id:product._id});
+                                setPage({ status: "contact", id: "" });
+                                scrollToTop()
+                              }}
+                              className="w-full bg-green-800 hover:bg-red-700 cursor-pointer text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]"
+                            >
                               {lang === "uz"
                                 ? "Buyurtma berish"
                                 : lang === "ru"
                                   ? "Заказать"
                                   : "Order Now"}
                             </button>
+                            <button
+                              onClick={() => {
+                                setBack
+                                setPage({ status: back.status, id: back.id });
+                                scrollToTop()
+                              }}
+                              className="w-full cursor-pointer text-amber-800 font-bold py-2 px-6 rounded-xl transition duration-200 border active:scale-[0.98]"
+                            >
+                              {lang === "uz"
+                                ? "Qaytish"
+                                : lang === "ru"
+                                  ? "Назад"
+                                  : "Back"}
+                            </button>
                           </div>
                         </div>
                       </div>
-                      <div className="p-8 border-t border-gray-50 bg-gray-50/30">
+                      <div className="p-2 md:p-8 border-t border-gray-50 bg-gray-50/30">
                         <div
-                          className="prose max-w-none text-gray-700"
+                          className="prose text-[12px] md:text-[15px] max-w-none text-gray-700"
                           dangerouslySetInnerHTML={{
                             __html: Lang(product.description),
                           }}

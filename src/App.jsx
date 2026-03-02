@@ -15,58 +15,45 @@ const App = () => {
   const [isLoading, setLoading] = useState(true);
   const [lang, setLang] = useState("ru");
   const [page, setPage] = useState({ status: "home", id: "" });
-
+  const [back, setBack] = useState({status:"home", id:""});
   useEffect(() => {
-    // 8 soniyadan keyin setLoading(false) qiladigan taymer
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 7222); // 8000 ms = 8 soniya
-
-    // Komponent o'chirilganda (unmount) taymerni tozalash
-    // Bu xotira xatolarining oldini oladi
+    }, 0);
     return () => clearTimeout(timer);
   }, []);
 
   return isLoading ? (
     <Loading />
-  ) : page.status === "product" ? (
+  ) : (
     <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} />
-      <Navbar setPage={setPage} lang={lang} setLang={setLang} page={page}/>
-      <ProductPage lang={lang} page={page} setPage={setPage}/>
-      <Footer lang={lang}  setPage={setPage}/>
+      <TopBar lang={lang} setLang={setLang} />
+      <Navbar
+        setBack={setBack}
+        setPage={setPage}
+        lang={lang}
+        setLang={setLang}
+        page={page}
+      />
+      {page.status === "product" ? (
+        <ProductPage back={back} lang={lang} page={page} setBack={setBack} setPage={setPage} />
+      ) : page.status === "category" ? (
+        <CategoryPage setBack={setBack} lang={lang} page={page} setPage={setPage} />
+      ) : page.status === "home" ? (
+        <>
+          <Home lang={lang} setPage={setPage} />
+          <Features lang={lang} />
+          <Products setBack={setBack} lang={lang} setPage={setPage} />
+        </>
+      ) : page.status === "delivery" ? (
+        <Delivery lang={lang} page={page} setPage={setPage} />
+      ) : page.status === "contact" ? (
+        <ContactPage setBack={setBack} back={back} lang={lang} page={page} setPage={setPage} />
+      ) : null}
+
+      <Footer lang={lang} setPage={setPage} setBack={setBack} />
     </div>
-  ) : page.status === "category" ? (
-    <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} />
-      <Navbar setPage={setPage} lang={lang} setLang={setLang} page={page}/>
-      <CategoryPage lang={lang} page={page} setPage={setPage}/>
-      <Footer lang={lang} setPage={setPage}/>
-    </div>
-  ) : page.status === "home" ?(
-    <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} />
-      <Navbar setPage={setPage} lang={lang} setLang={setLang} page={page}/>
-      <Home lang={lang} />
-      <Features lang={lang} />
-      <Products lang={lang} setPage={setPage} />
-      <Footer lang={lang} setPage={setPage}/>
-    </div>
-  ): page.status === "delivery" ? (
-    <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} />
-      <Navbar setPage={setPage} lang={lang} setLang={setLang} page={page}/>
-      <Delivery lang={lang} page={page} setPage={setPage}/>
-      <Footer lang={lang} setPage={setPage}/>
-    </div>
-  ): page.status === "contact" ? (
-    <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} />
-      <Navbar setPage={setPage} lang={lang} setLang={setLang} page={page}/>
-      <ContactPage lang={lang} page={page} setPage={setPage}/>
-      <Footer lang={lang} setPage={setPage}/>
-    </div>
-  ) : null
+  );
 };
 
 export default App;

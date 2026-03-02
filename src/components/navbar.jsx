@@ -4,8 +4,7 @@ import title from "../static/title.png";
 import category from "../data/categories.json";
 import products from "../data/products.json";
 import header from "../language/header.json";
-import Changer from "../helper/languageChanger";
-function Navbar({ lang, setLang, setPage, page }) {
+function Navbar({ lang, setPage, page, setBack }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -65,8 +64,10 @@ function Navbar({ lang, setLang, setPage, page }) {
               >
                 <button
                   onClick={() => {
+                    setBack({status:"home",id:""});
                     setPage({ status: "category", id: item._id });
                     setIsMenuOpen(false);
+                    scrollToTop();
                   }}
                   className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-amber-100 group-hover:text-blue-600 transition-colors"
                 >
@@ -86,6 +87,8 @@ function Navbar({ lang, setLang, setPage, page }) {
                                 onClick={() => {
                                   setPage({ status: "product", id: d._id });
                                   setIsMenuOpen(false);
+                                  setBack({status:"home",id:""});
+                                  scrollToTop();
                                 }}
                                 className={`w-full cursor-pointer flex items-center gap-3 p-3 border-red-50 ring-2 ring-red-100 hover:bg-red-200  transition-all duration-200 text-left border
                               ${
@@ -113,8 +116,10 @@ function Navbar({ lang, setLang, setPage, page }) {
             <a
               href="#"
               onClick={() => {
+                setBack({status:"home",id:""});
                 setPage({ status: "delivery", id: "" });
                 setIsMenuOpen(false);
+                scrollToTop();
               }}
               className="text-amber-100 lg:text-sm hover:text-blue-600 font-medium transition-colors"
             >
@@ -123,36 +128,36 @@ function Navbar({ lang, setLang, setPage, page }) {
             <a
               href="#"
               onClick={() => {
+                setBack({status:"home",id:""});
                 setPage({ status: "contact", id: "" });
                 setIsMenuOpen(false);
+                scrollToTop();
               }}
               className="text-amber-100 lg:text-sm ml-4 hover:text-blue-600 font-medium transition-colors"
             >
               {Lang(header.links.contact)}
             </a>
-            <Changer setLang={setLang} lang={lang} />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex items-center lg:hidden relative">
             <button
               onClick={toggleMenu}
-              className="text-gray-600 hover:text-emerald-600 focus:outline-none"
+              className="text-green-500 hover:text-emerald-600 focus:outline-none"
             >
               {isMenuOpen ? (
                 <X className="h-8 w-8" />
               ) : (
-                <Menu className="h-8 w-8" />
+                <Menu className="h-8 w-8 " />
               )}
             </button>
-            <Changer setLang={setLang} lang={lang} />
           </div>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+        <div className="lg:hidden bg-white border-t min-h-screen border-gray-100 absolute w-full shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
             {category.map((item, key) => (
               <div
@@ -161,8 +166,10 @@ function Navbar({ lang, setLang, setPage, page }) {
               >
                 <button
                   onClick={() => {
+                    setBack("home");
                     setPage({ status: "category", id: item._id });
                     setIsMenuOpen(false);
+                    scrollToTop();
                   }}
                   className="flex  items-center gap-1 px-4 py-1 text-[16px] font-medium text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 transition-colors"
                 >
@@ -173,12 +180,13 @@ function Navbar({ lang, setLang, setPage, page }) {
                   {products.map(
                     (d, index) =>
                       d.category === item._id && (
-                        <a
+                        <button
                           key={index}
-                          href=""
                           onClick={() => {
+                            setBack({status:"home",id:""});
                             setPage({ status: "product", id: d._id });
                             setIsMenuOpen(false);
+                            scrollToTop();
                           }}
                           className="flex items-start  gap-4 py-1 px-3 hover:bg-red-200 transition-colors "
                         >
@@ -187,7 +195,7 @@ function Navbar({ lang, setLang, setPage, page }) {
                               {Lang(d.name)}
                             </p>
                           </div>
-                        </a>
+                        </button>
                       ),
                   )}
                 </div>
@@ -196,8 +204,10 @@ function Navbar({ lang, setLang, setPage, page }) {
             <a
               href=""
               onClick={() => {
+                setBack({status:"home",id:""});
                 setPage({ status: "delivery", id: "" });
                 setIsMenuOpen(false);
+                scrollToTop();
               }}
               className="block px-3 py-1 text-[16px] font-medium text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-md"
             >
@@ -208,12 +218,13 @@ function Navbar({ lang, setLang, setPage, page }) {
               onClick={() => {
                 setPage({ status: "contact", id: "" });
                 setIsMenuOpen(false);
+                setBack({status:"home",id:""});
+                scrollToTop();
               }}
               className="block px-3 py-1 text-[16px] font-medium text-gray-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-md"
             >
               {Lang(header.links.contact)}
             </a>
-            <Changer isMenuOpen={isMenuOpen} setLang={setLang} lang={lang} />
             <div className="mt-4 px-3 py-2 border-t border-gray-100">
               <p className="flex items-center text-sm font-medium text-gray-700 mb-2">
                 <Phone className="w-4 h-4 mr-2 text-emerald-600" /> +998 90

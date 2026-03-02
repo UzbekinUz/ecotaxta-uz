@@ -1,7 +1,7 @@
-import { Clock, Mail, Phone } from "lucide-react";
+import { Clock, Mail, Phone, X } from "lucide-react";
 import ProductSlideBar from "../helper/productSlideBar";
 import contactTxt from "../language/contactTxt.json";
-function ContactPage({ page, setPage, lang }) {
+function ContactPage({ page, setPage, lang, back,setBack }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -10,7 +10,14 @@ function ContactPage({ page, setPage, lang }) {
       <div className="max-w-7xl mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className=" md:max-w-7xl w-full lg:col-span-3">
-            <div className="space-y-12 animate-in fade-in slide-in-from-left-8 duration-1000 bg-red-50 rounded-2xl md:p-10 p-3 shadow-sm border border-gray-100 overflow-hidden relative">
+            <div className=" space-y-12 animate-in fade-in slide-in-from-left-8 duration-1000 bg-red-50 rounded-2xl md:p-10 p-3 shadow-sm border border-gray-100 overflow-hidden relative">
+              <X
+                onClick={() => {
+                  setPage({ status: back.status, id: back.id });
+                  setBack({status:"home", id:""})
+                }}
+                className="h-8 w-8 absolute top-2 cursor-pointer z-12  right-2"
+              />
               <div className="absolute h-full inset-0 opacity-3 ">
                 <svg
                   className="w-full h-full"

@@ -2,20 +2,31 @@ import products from "../data/products.json";
 import categories from "../data/categories.json";
 import categoryTxt from "../language/categoryPageTxt.json";
 import ProductSlideBar from "../helper/productSlideBar";
+import { X } from "lucide-react";
 
-function CategoryPage({ page, lang, setPage }) {
+function CategoryPage({ page, lang, setPage, setBack }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
 
-
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Silliq harakat
+    });
+  };
   return (
     <section className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className=" md:max-w-7xl w-full lg:col-span-3">
-            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="bg-white rounded-2xl relative shadow-sm border border-gray-100 p-8 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+              <X
+                onClick={() => {
+                  setPage({ status: "home", id: "" });
+                }}
+                className="h-8 w-8 absolute top-2 cursor-pointer  right-2"
+              />
               <h1 className="text-4xl font-bold mb-4">
                 {Lang(categoryTxt.title)}
               </h1>
@@ -36,12 +47,14 @@ function CategoryPage({ page, lang, setPage }) {
                             return (
                               <button
                                 key={key}
-                                onClick={() =>
+                                onClick={() => {
+                                  setBack({ status: "category", id: ctg._id });
                                   setPage({
                                     status: "product",
                                     id: product._id,
-                                  })
-                                }
+                                  });
+                                  scrollToTop()
+                                }}
                                 className="bg-red-50 relative rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 group"
                               >
                                 <div className="h-40 overflow-hidden relative cursor-pointer z-10">
@@ -102,8 +115,12 @@ function CategoryPage({ page, lang, setPage }) {
           </div>
 
           {/* YON PANEL - MAHSULOTLAR RO'YXATI (O'ng tomon) */}
-            <ProductSlideBar page={page} setPage={setPage} lang={lang} Lang={Lang}/>
-          
+          <ProductSlideBar
+            page={page}
+            setPage={setPage}
+            lang={lang}
+            Lang={Lang}
+          />
         </div>
       </div>
     </section>

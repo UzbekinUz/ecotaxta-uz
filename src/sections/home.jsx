@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import slides from "../data/slides.json";
-function Home({ lang }) {
+function Home({ lang, setPage }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -64,7 +64,8 @@ function Home({ lang }) {
               {lang === "ru" ? "Каталог продукции" : lang === "uz" ? "Mahsulotlar katalogi" : "Product Catalog"}
             </a>
             <a
-              href="#contact"
+              href="#"
+              onClick={()=>{setPage({status:"contact",id:''})}}
               className="inline-flex justify-center items-center px-8 py-3.5 border-2 border-white/20 text-base font-bold rounded-md text-white hover:bg-white/10 transition-all backdrop-blur-sm"
             >
               {lang === "ru" ? "Связаться с нами" : lang === "uz" ? "Biz bilan bog'lanish" : "Contact Us"}

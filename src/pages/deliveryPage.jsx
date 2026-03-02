@@ -1,7 +1,8 @@
+import { X } from "lucide-react";
 import ProductSlideBar from "../helper/productSlideBar";
 import deliveryTxt from "../language/deliveryTxt.json";
 
-function Delivery({ lang, page, setPage }) {
+function Delivery({ lang, page, setPage, back }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -17,7 +18,13 @@ function Delivery({ lang, page, setPage }) {
         <div className="gap-8">
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-6">
             {/* Main Content Area */}
-            <div className="bg-red-50 rounded-2xl p-10 shadow-sm border border-gray-100 overflow-hidden relative">
+            <div className=" bg-red-50 rounded-2xl p-10 shadow-sm border border-gray-100 overflow-hidden relative">
+              <X
+                onClick={() => {
+                  setPage({ status: back.status, id: back.id });
+                }}
+                className="h-8 w-8 absolute top-2 cursor-pointer z-10  right-2"
+              />
               <div className="absolute h-full inset-0 opacity-3 ">
                 <svg
                   className="w-full h-full"
