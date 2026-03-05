@@ -78,7 +78,7 @@ function Footer({ lang, setPage }) {
                     href="tel:+998907122080"
                     className="block text-gray-300 hover:text-white transition-colors"
                   >
-                    +998 90 712 20 80
+                    +998 95 808 20 80
                   </a>
                 </div>
               </div>

@@ -16,7 +16,7 @@ function TopBar({ lang,setLang }) {
           </span>
           <span className="flex items-center font-semibold text-[10px]">
             <Phone className="w-4 h-4 mr-2 text-emerald-400" />
-            +998 90 712-20-80
+            +998 95 808-20-80
           </span>
         </div>
         <div className="flex space-x-6">
