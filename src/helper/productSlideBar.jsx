@@ -1,5 +1,5 @@
-import products from "../data/products.json";
-function ProductSlideBar({ page, setPage,  lang , Lang}) {
+
+function ProductSlideBar({ page, setPage,  lang , Lang, product}) {
     const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -15,11 +15,11 @@ function ProductSlideBar({ page, setPage,  lang , Lang}) {
             ? "Mahsulotlar qatori"
             : lang === "ru"
               ? "Kаталог продукции"
-              : ""}
+              : "Products"}
         </h3>
 
         <div className="space-y-0  ">
-          {products.map((item) => (
+          {product.map((item) => (
             <button
               key={item._id}
               onClick={() => {

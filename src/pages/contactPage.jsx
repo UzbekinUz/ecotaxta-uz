@@ -1,7 +1,7 @@
 import { Clock, Mail, Phone, X } from "lucide-react";
 import ProductSlideBar from "../helper/productSlideBar";
 import contactTxt from "../language/contactTxt.json";
-function ContactPage({ page, setPage, lang, back,setBack }) {
+function ContactPage({ page, setPage, lang, back,setBack, product, category }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -143,6 +143,8 @@ function ContactPage({ page, setPage, lang, back,setBack }) {
             setPage={setPage}
             lang={lang}
             Lang={Lang}
+            category={category}
+            product={product}
           />
         </div>
       </div>

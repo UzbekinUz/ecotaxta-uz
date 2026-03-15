@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import {Phone } from "lucide-react";
 
 function TopBar({ lang,setLang }) {
   const languages = [

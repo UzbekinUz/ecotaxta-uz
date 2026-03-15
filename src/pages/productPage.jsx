@@ -1,7 +1,14 @@
 import { StepBack } from "lucide-react";
-import products from "../data/products.json";
 import ProductSlideBar from "../helper/productSlideBar";
-function ProductPage({ lang, page, setPage,back,setBack }) {
+function ProductPage({
+  lang,
+  page,
+  setPage,
+  back,
+  setBack,
+  product,
+  category,
+}) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -38,7 +45,7 @@ function ProductPage({ lang, page, setPage,back,setBack }) {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className=" md:max-w-7xl w-full lg:col-span-3 ">
             <div className="bg-red-50 rounded-2xl p-3 md:p-10 shadow-sm border border-gray-100 overflow-hidden relative">
-              {products.map((product, key) => {
+              {product.map((product, key) => {
                 if (product._id === page.id) {
                   return (
                     <div key={key}>
@@ -74,11 +81,11 @@ function ProductPage({ lang, page, setPage,back,setBack }) {
                           <div className="flex flex-col gap-4">
                             <button
                               onClick={() => {
-                                setBack({status:"product", id:product._id});
+                                setBack({ status: "product", id: product._id });
                                 setPage({ status: "contact", id: "" });
-                                scrollToTop()
+                                scrollToTop();
                               }}
-                              className="w-full bg-green-800 hover:bg-red-700 cursor-pointer text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]"
+                              className="w-full bg-[#F58220] hover:bg-red-700 cursor-pointer text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]"
                             >
                               {lang === "uz"
                                 ? "Buyurtma berish"
@@ -88,9 +95,9 @@ function ProductPage({ lang, page, setPage,back,setBack }) {
                             </button>
                             <button
                               onClick={() => {
-                                setBack
+                                setBack;
                                 setPage({ status: back.status, id: back.id });
-                                scrollToTop()
+                                scrollToTop();
                               }}
                               className="w-full cursor-pointer text-amber-800 font-bold py-2 px-6 rounded-xl transition duration-200 border active:scale-[0.98]"
                             >
@@ -124,6 +131,8 @@ function ProductPage({ lang, page, setPage,back,setBack }) {
             scrollToTop={scrollToTop}
             lang={lang}
             Lang={Lang}
+            category={category}
+            product={product}
           />
         </div>
       </div>

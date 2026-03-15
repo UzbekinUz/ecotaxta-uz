@@ -1,10 +1,8 @@
 import { ChevronDown, Mail, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import title from "../static/title.png";
-import category from "../data/categories.json";
-import products from "../data/products.json";
 import header from "../language/header.json";
-function Navbar({ lang, setPage, page, setBack }) {
+function Navbar({ lang, setPage, page, setBack,category, product }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -79,7 +77,7 @@ function Navbar({ lang, setPage, page, setBack }) {
                 <div className="absolute  top-full left-0 w-80 pt-2 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out">
                   <div className=" shadow-2xl  overflow-hidden">
                     <div className="grid grid-cols-1 gap-1  ">
-                      {products.map(
+                      {product.map(
                         (d, key) =>
                           d.category === item._id && (
                             <div key={key}>
@@ -177,7 +175,7 @@ function Navbar({ lang, setPage, page, setBack }) {
                   <ChevronDown className="w-4 h-4 " />
                 </button>
                 <div className="ml-5 grid grid-cols-1 gap-1 ">
-                  {products.map(
+                  {product.map(
                     (d, index) =>
                       d.category === item._id && (
                         <button

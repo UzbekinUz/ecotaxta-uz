@@ -1,10 +1,8 @@
-import products from "../data/products.json";
-import categories from "../data/categories.json";
 import categoryTxt from "../language/categoryPageTxt.json";
 import ProductSlideBar from "../helper/productSlideBar";
 import { X } from "lucide-react";
 
-function CategoryPage({ page, lang, setPage, setBack }) {
+function CategoryPage({ page, lang, setPage, setBack,category, product }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -34,7 +32,7 @@ function CategoryPage({ page, lang, setPage, setBack }) {
                 className="text-md mb-12 text-gray-600"
                 dangerouslySetInnerHTML={{ __html: Lang(categoryTxt.dsc) }}
               />
-              {categories.map((ctg, key) => {
+              {category.map((ctg, key) => {
                 if (ctg._id === page.id) {
                   return (
                     <div key={key}>
@@ -42,7 +40,7 @@ function CategoryPage({ page, lang, setPage, setBack }) {
                         {Lang(ctg.title)}
                       </h2>
                       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 cursor-pointer">
-                        {products.map((product, key) => {
+                        {product.map((product, key) => {
                           if (product.category === ctg._id) {
                             return (
                               <button
@@ -120,6 +118,8 @@ function CategoryPage({ page, lang, setPage, setBack }) {
             setPage={setPage}
             lang={lang}
             Lang={Lang}
+            category={category}
+            product={product}
           />
         </div>
       </div>

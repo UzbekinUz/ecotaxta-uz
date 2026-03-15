@@ -15,14 +15,64 @@ const App = () => {
   const [isLoading, setLoading] = useState(true);
   const [lang, setLang] = useState("ru");
   const [page, setPage] = useState({ status: "home", id: "" });
-  const [back, setBack] = useState({status:"home", id:""});
+  const [back, setBack] = useState({ status: "home", id: "" });
+
+  const [category, setCategory] = useState([]);
+  const [product, setProduct] = useState([]);
+
+  useEffect(() => {
+    fetch("/json/data/categories.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Faylni yuklashda xatolik yuz berdi");
+        }
+        return response.json();
+      })
+      .then((dataC) => {
+        setCategory(dataC);
+        const timer = setTimeout(() => {
+          setLoading(false);
+        }, 7222);
+        return () => clearTimeout(timer);
+      })
+      .catch((error) => {
+        console.error("Xatolik:", error);
+        const timer = setTimeout(() => {
+          setLoading(false);
+        }, 7222);
+        return () => clearTimeout(timer);
+      });
+  }, []);
+  useEffect(() => {
+    fetch("/json/data/products.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Faylni yuklashda xatolik yuz berdi");
+        }
+        return response.json();
+      })
+      .then((dataC) => {
+        setProduct(dataC);
+        const timer = setTimeout(() => {
+          setLoading(false);
+        }, 7222);
+        return () => clearTimeout(timer);
+      })
+      .catch((error) => {
+        console.error("Xatolik:", error);
+        const timer = setTimeout(() => {
+          setLoading(false);
+        }, 7222);
+        return () => clearTimeout(timer);
+      });
+  }, []);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 7222);
     return () => clearTimeout(timer);
   }, []);
-
   return isLoading ? (
     <Loading />
   ) : (
@@ -34,24 +84,67 @@ const App = () => {
         lang={lang}
         setLang={setLang}
         page={page}
+        category={category}
+        product={product}
       />
       {page.status === "product" ? (
-        <ProductPage back={back} lang={lang} page={page} setBack={setBack} setPage={setPage} />
+        <ProductPage
+          back={back}
+          lang={lang}
+          page={page}
+          setBack={setBack}
+          setPage={setPage}
+          category={category}
+          product={product}
+        />
       ) : page.status === "category" ? (
-        <CategoryPage setBack={setBack} lang={lang} page={page} setPage={setPage} />
+        <CategoryPage
+          setBack={setBack}
+          lang={lang}
+          page={page}
+          setPage={setPage}
+          category={category}
+          product={product}
+        />
       ) : page.status === "home" ? (
         <>
           <Home lang={lang} setPage={setPage} />
           <Features lang={lang} />
-          <Products setBack={setBack} lang={lang} setPage={setPage} />
+          <Products
+            setBack={setBack}
+            lang={lang}
+            setPage={setPage}
+            category={category}
+            product={product}
+          />
         </>
       ) : page.status === "delivery" ? (
-        <Delivery lang={lang} page={page} setPage={setPage} />
+        <Delivery
+          lang={lang}
+          page={page}
+          setPage={setPage}
+          category={category}
+          product={product}
+        />
       ) : page.status === "contact" ? (
-        <ContactPage setBack={setBack} back={back} lang={lang} page={page} setPage={setPage} />
+        <ContactPage
+          setBack={setBack}
+          back={back}
+          lang={lang}
+          page={page}
+          setPage={setPage}
+          category={category}
+          product={product}
+        />
       ) : null}
 
-      <Footer lang={lang} setPage={setPage} setBack={setBack} />
+      <Footer
+        lang={lang}
+        setPage={setPage}
+        setBack={setBack}
+        category={category}
+        product={product}
+      />
     </div>
   );
 };

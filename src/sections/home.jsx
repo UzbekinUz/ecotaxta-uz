@@ -59,7 +59,7 @@ function Home({ lang, setPage }) {
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 relative z-20">
             <a
               href="#products"
-              className="inline-flex justify-center items-center px-8 py-3.5 border border-transparent text-base font-bold rounded-md text-white bg-emerald-600 hover:bg-emerald-700 shadow-lg shadow-emerald-600/30 transition-all"
+              className="inline-flex justify-center items-center px-8 py-3.5 border border-transparent text-base font-bold rounded-md text-white bg-[#F58220] hover:bg-[#9f4e07] shadow-lg shadow-emerald-600/30 transition-all"
             >
               {lang === "ru" ? "Каталог продукции" : lang === "uz" ? "Mahsulotlar katalogi" : "Product Catalog"}
             </a>

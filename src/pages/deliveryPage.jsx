@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 import ProductSlideBar from "../helper/productSlideBar";
 import deliveryTxt from "../language/deliveryTxt.json";
 
-function Delivery({ lang, page, setPage, back }) {
+function Delivery({ lang, page, setPage, back, category,product }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -106,7 +106,15 @@ function Delivery({ lang, page, setPage, back }) {
               </div>
             </div>
             {/* YON PANEL - MAHSULOTLAR RO'YXATI (O'ng tomon) */}
-            <ProductSlideBar page={page} setPage={setPage} scrollToTop={scrollToTop} lang={lang} Lang={Lang}/>
+            <ProductSlideBar
+              page={page}
+              setPage={setPage}
+              scrollToTop={scrollToTop}
+              lang={lang}
+              Lang={Lang}
+              category={category}
+              product={product}
+            />
           </div>
         </div>
       </div>

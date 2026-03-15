@@ -5,9 +5,7 @@ import {
   Mail,
 } from "lucide-react";
 import footerTxt from "../language/footerTxt.json";
-import catalog from "../data/categories.json";
-import products from "../data/products.json";
-function Footer({ lang, setPage }) {
+function Footer({ lang, setPage, category, product }) {
   
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
@@ -23,7 +21,7 @@ function Footer({ lang, setPage }) {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-flow-row-dense lg:grid-cols-4 grid-rows-auto md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5   ">
           {/* Column 1: Plywood */}
-          {catalog.map((item, key) => (
+          {category.map((item, key) => (
             <div
               key={key}
               className="relative min-h-10 flex flex-col items-start gap-1 h-full z-10 "
@@ -39,7 +37,7 @@ function Footer({ lang, setPage }) {
                 {Lang(item.title)}
               </a>
               <div className="ml-1 mb-3 flex  flex-col items-start justify-start p-0 gap-1 space-y-3">
-                {products.map(
+                {product.map(
                   (d, key) =>
                     d.category === item._id && (
                       <a
