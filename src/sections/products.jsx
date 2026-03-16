@@ -21,7 +21,7 @@ function Products({ lang, setPage, category, product }) {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="max-w-7xl  mx-auto px-1 md:px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl  mx-auto px-3 md:px-4 sm:px-6 lg:px-8">
         <div className="text-start bg-amber-50 md:p-10 p-4 w-full mx-auto mb-0 md:mb-16">
           <h2 className="text-base text-emerald-600 font-bold tracking-wide uppercase">
             {Lang(productTxt.start)}
