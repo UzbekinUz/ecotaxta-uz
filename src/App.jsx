@@ -10,74 +10,30 @@ import ProductPage from "./pages/productPage";
 import CategoryPage from "./pages/categoryPage";
 import Delivery from "./pages/deliveryPage";
 import ContactPage from "./pages/contactPage";
-
+import useStore from "./helper/store";
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   const [lang, setLang] = useState("ru");
   const [page, setPage] = useState({ status: "home", id: "" });
   const [back, setBack] = useState({ status: "home", id: "" });
-
-  const [category, setCategory] = useState([]);
-  const [product, setProduct] = useState([]);
-
+  const { 
+    product, refP, fetchProducts,
+    category, refC, fetchCategories 
+  } = useStore();
   useEffect(() => {
-    fetch("/json/data/categories.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Faylni yuklashda xatolik yuz berdi");
-        }
-        return response.json();
-      })
-      .then((dataC) => {
-        setCategory(dataC);
-        const timer = setTimeout(() => {
-          setLoading(false);
-        }, 7222);
-        return () => clearTimeout(timer);
-      })
-      .catch((error) => {
-        console.error("Xatolik:", error);
-        const timer = setTimeout(() => {
-          setLoading(false);
-        }, 7222);
-        return () => clearTimeout(timer);
-      });
-  }, []);
-  useEffect(() => {
-    fetch("/json/data/products.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Faylni yuklashda xatolik yuz berdi");
-        }
-        return response.json();
-      })
-      .then((dataC) => {
-        setProduct(dataC);
-        const timer = setTimeout(() => {
-          setLoading(false);
-        }, 7222);
-        return () => clearTimeout(timer);
-      })
-      .catch((error) => {
-        console.error("Xatolik:", error);
-        const timer = setTimeout(() => {
-          setLoading(false);
-        }, 7222);
-        return () => clearTimeout(timer);
-      });
-  }, []);
-
-  useEffect(() => {
+    fetchProducts();
+    fetchCategories();
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 7222);
+    }, 0);
     return () => clearTimeout(timer);
-  }, []);
+  
+  }, [fetchCategories, fetchProducts]);
+
   return isLoading ? (
     <Loading />
   ) : (
     <div className="min-h-screen relative bg-gray-50 font-sans text-gray-800 animate-in fade-in duration-1000">
-      <TopBar lang={lang} setLang={setLang} />
       <Navbar
         setBack={setBack}
         setPage={setPage}
@@ -96,6 +52,7 @@ const App = () => {
           setPage={setPage}
           category={category}
           product={product}
+          refP={refP}
         />
       ) : page.status === "category" ? (
         <CategoryPage
@@ -105,6 +62,7 @@ const App = () => {
           setPage={setPage}
           category={category}
           product={product}
+          refC={refC}
         />
       ) : page.status === "home" ? (
         <>

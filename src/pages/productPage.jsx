@@ -51,7 +51,7 @@ function ProductPage({
                     <div key={key}>
                       <div className="flex flex-col md:flex-row relative z-10">
                         {/* Mahsulot rasmi */}
-                        <div className="md:max-w-100 w-full h-70 flex rounded-2xl items-center justify-center bg-red-100">
+                        <div className="md:max-w-100 w-full h-70 flex rounded-2xl items-center justify-center bg-white">
                           <img
                             src={product.img}
                             alt={Lang(product.name)}
@@ -78,19 +78,19 @@ function ProductPage({
                             </p>
                           </div>
 
-                          <div className="flex flex-col gap-4">
+                          <div className="flex flex-col gap-2">
                             <button
                               onClick={() => {
                                 setBack({ status: "product", id: product._id });
                                 setPage({ status: "contact", id: "" });
                                 scrollToTop();
                               }}
-                              className="w-full bg-[#F58220] hover:bg-red-700 cursor-pointer text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]"
+                              className="w-full bg-[#F58220] hover:bg-red-700 cursor-pointer text-white font-bold py-3 px-6 rounded-sm transition duration-200 shadow-lg shadow-blue-200 active:scale-[0.98]"
                             >
                               {lang === "uz"
                                 ? "Buyurtma berish"
                                 : lang === "ru"
-                                  ? "Заказать"
+                                  ? "Запрос на расчет"
                                   : "Order Now"}
                             </button>
                             <button
@@ -99,7 +99,7 @@ function ProductPage({
                                 setPage({ status: back.status, id: back.id });
                                 scrollToTop();
                               }}
-                              className="w-full cursor-pointer text-amber-800 font-bold py-2 px-6 rounded-xl transition duration-200 border active:scale-[0.98]"
+                              className="w-full cursor-pointer text-amber-800 font-bold py-2 px-6 rounded-sm transition duration-200 border active:scale-[0.98]"
                             >
                               {lang === "uz"
                                 ? "Qaytish"

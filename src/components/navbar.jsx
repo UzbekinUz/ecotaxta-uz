@@ -2,7 +2,8 @@ import { ChevronDown, Mail, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import title from "../static/title.png";
 import header from "../language/header.json";
-function Navbar({ lang, setPage, page, setBack,category, product }) {
+import TopBar from "./topBar";
+function Navbar({ lang, setPage, page, setBack,category, product,setLang }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,6 +19,7 @@ function Navbar({ lang, setPage, page, setBack,category, product }) {
   };
   return (
     <nav className="bg-[#333333] shadow-md sticky top-0 z-50">
+      <TopBar lang={lang} setLang={setLang} />
       <div className="absolute h-full inset-0 opacity-30 ">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>

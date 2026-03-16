@@ -7,7 +7,7 @@ function TopBar({ lang,setLang }) {
     { code: "en", name: "En" }
   ];
   return (
-    <div className="bg-emerald-900 text-white py-2 text-sm block">
+    <div className="bg-emerald-900 text-white py-2 text-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap md:grid-cols-2 gap-0 justify-between items-center">
         <div className="flex space-x-4">
           <span className="flex items-center font-semibold text-[10px]">

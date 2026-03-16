@@ -1,5 +1,7 @@
 import productTxt from "../language/productTitle.json";
-function Products({ lang, setPage, category, product }) {
+import ImageWithLoader from "../helper/imgLoader";
+import { Loader2 } from "lucide-react";
+function Products({ lang, setPage, category, product, refP }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
   }
@@ -40,16 +42,16 @@ function Products({ lang, setPage, category, product }) {
               <h2 className="text-xl md:text-2xl text-[#F58220] bg-amber-50 p-2 font-bold tracking-wide uppercase">
                 {Lang(ctg.title)}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0">
+              <div className="grid grid-cols-2 lg:grid-cols-3 mt-2 gap-1">
                 {product.map((product, key) => {
                   if (product.category === ctg._id) {
                     return (
                       <div
                         key={key}
-                        className="bg-red-50 relative rounded-0 border-t-2 border-[#F58220] overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 group"
+                        className="bg-white border-2 relative rounded-0 overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 group"
                       >
-                        <div className="h-40 md:h-64 overflow-hidden relative z-10">
-                          <div className="absolute h-full inset-0 opacity-3 ">
+                        <div className="h-40 md:h-64 overflow-hidden justify-between relative z-10">
+                          {/* <div className="absolute h-full inset-0 opacity-3 ">
                             <svg
                               className="w-full h-full"
                               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +77,7 @@ function Products({ lang, setPage, category, product }) {
                                 fill="url(#pattern)"
                               />
                             </svg>
-                          </div>
+                          </div> */}
                           <div
                             onClick={() => {
                               setPage({ status: "product", id: product._id });
@@ -83,11 +85,15 @@ function Products({ lang, setPage, category, product }) {
                             }}
                             className="w-full relative z-10 flex items-center justify-center h-full object-cover group-hover:scale-110 transition-transform duration-500"
                           >
-                            <img
-                              src={product.img}
-                              alt={Lang(product.name)}
-                              className="w-[48%]  object-cover group-hover:scale-110 transition-transform duration-500"
-                            />
+                            {!refP ? (
+                              <img
+                                src={product.img}
+                                alt={Lang(product.name)}
+                                className="w-[48%]  object-cover group-hover:scale-110 transition-transform duration-500"
+                              />
+                            ) : (
+                              <Loader2 className="w-10 h-10 text-[#D97A2B] animate-spin" />
+                            )}
                           </div>
                           <div className="absolute top-4 right-4 z-40 bg-[#F58220] text-white text-xs font-bold px-3 py-1 rounded-full">
                             {lang === "ru"
@@ -104,7 +110,7 @@ function Products({ lang, setPage, category, product }) {
                             scrollToTop();
                           }}
                         >
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">
+                          <h3 className="text-[15px] md:text-xl font-bold text-gray-900 mb-2">
                             {Lang(product.name)}
                           </h3>
                           <p className="text-gray-600 mb-0 md:mb-4 text-sm line-clamp-2">

@@ -1,54 +1,5 @@
-const ImageWithLoader = ({ src, alt }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [hasError, setHasError] = useState(false);
-
-  // Rasm muvaffaqiyatli yuklanganda
-  const handleLoad = () => setIsLoaded(true);
-
-  // Yuklashda xatolik yuz berganda
-  const handleError = () => {
-    setIsLoaded(true);
-    setHasError(true);
-  };
-
-  return (
-    <div className="relative  bg-gray-100 rounded-full overflow-hidden shadow-inner flex items-center justify-center">
-      
-      {/* 1. Loading Spinner - Faqat rasm yuklanayotganda ko'rinadi */}
-      {!isLoaded && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-50 z-10">
-          <Loader2 className="w-10 h-10 text-blue-600 animate-spin" />
-        </div>
-      )}
-
-      {/* 2. Xatolik holati */}
-      {hasError ? (
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-red-50 text-red-400 p-6 text-center">
-          <AlertCircle className="w-12 h-12 mb-3" />
-          <p className="text-sm font-semibold text-red-600 italic">Rasm manzilida xatolik mavjud yoki internet aloqasi yo'q</p>
-        </div>
-      ) : (
-        /* 3. Asosiy Rasm */
-        <img
-          src={src}
-          alt={alt}
-          onLoad={handleLoad}
-          onError={handleError}
-          className={`
-            w-25 h-25 object-cover transition-opacity duration-1000 ease-in-out
-            ${isLoaded ? 'opacity-100' : 'opacity-0'}
-          `}
-        />
-      )}
-    </div>
-  );
-};
-
-
-
-import { AlertCircle, Loader2 } from "lucide-react";
+import ImageWithLoader from "../helper/imgLoader";
 import featureText from "../language/feature.json";
-import { useState } from "react";
 function Features({ lang }) {
   function Lang(address) {
     return lang === "ru" ? address.ru : lang === "uz" ? address.uz : address.en;
@@ -80,7 +31,7 @@ function Features({ lang }) {
               className="flex p-0 items-center flex-col justify-start max-w-55 transition-colors duration-1000 hover:scale-110 rounded-lg  text-center"
             >
               <div className="shrink-0 p-3 bg-emerald-100 rounded-lg text-emerald-600">
-                <ImageWithLoader src={item.icon} alt={item.title}/>
+                <ImageWithLoader src={item.icon} alt={item.title} size="w-25 h-25"/>
               </div>
               <div className="ml-4 w-full flex mt-2 items-center flex-col justify-center">
                 <h3 className="text-lg font-bold text-gray-900">
