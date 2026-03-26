@@ -1,0 +1,30 @@
+[
+  {
+    "title": {
+      "uz": "Mahsulotlar",
+      "en": "Products",
+      "ru": "Продукция"
+    }
+  },
+  {
+    "title": {
+      "uz": "Dokumentlar",
+      "en": "Documents",
+      "ru": "Документы"
+    }
+  },
+  {
+    "title": {
+      "uz": "Yetkazib berish",
+      "en": "Delivery",
+      "ru": "Доставка"
+    }
+  },
+  {
+    "title": {
+      "uz": "Kontak",
+      "en": "Contact",
+      "ru": "Контакты"
+    }
+  }
+]

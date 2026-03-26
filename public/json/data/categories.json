@@ -1,29 +1,46 @@
 [
-        {
-            "title": {
-                "uz": "Fanera",
-                "ru": "Фанера свеза",
-                "en": "Playwood"
-            },
-            "_id": "69a1272c4f7c8ee695a4d85e",
-            "__v": 0
+    {
+        "title": {
+            "uz": "Fanera",
+            "ru": "Фанера свеза",
+            "en": "Playwood"
         },
-        {
-            "title": {
-                "uz": "Plitalar uchun materiallar",
-                "ru": "Плитные материалы",
-                "en": "Slab Materials"
-            },
-            "_id": "69a127894f7c8ee695a4d861",
-            "__v": 0
+        "dsc":{
+            "uz":"",
+            "ru":"Фанера от «Свезы» — экологичный, прочный и безопасный материал из 100% березовой древесины. Продукция соответствует российским и зарубежным стандартам, отвечает самым строгим требованиям отраслей",
+            "en":"Made of birch throughout, our plywood is a strong, safe, and sustainable material meeting the highest global and national industry standards and requirements."
         },
-        {
-            "title": {
-                "uz": "Taxtalar",
-                "ru": "Доски",
-                "en": "Wood boards"
+        "img": "/categories/img_1.webp",
+        "_id": "69a1272c4f7c8ee695a4d85e",
+        "__v": 0
+    },
+    {
+        "title": {
+            "uz": "Plitalar uchun materiallar",
+            "ru": "Плитные материалы",
+            "en": "Slab Materials"
+        },
+        "dsc":{
+            "uz":"",
+            "ru":"«Свеза» выпускает большой выбор ДСП и ЛДСП из 100% березовой древесины. Плиты бренда имеют одну из самых высоких плотностей на рынке благодаря современной технологии производства горячего прессования и высокой плотности наружных слоев.",
+            "en":"We produce a large range of particleboard and laminated particleboard products made of 100% birch wood. Our particleboard has superior density due to the modern hot pressing technology and high density of face veneers."
             },
-            "_id": "69a127f14f7c8ee695a4d863",
-            "__v": 0
-        }
-    ]
+        "img": "/categories/img_2.webp",
+        "_id": "69a127894f7c8ee695a4d861",
+        "__v": 0
+    },
+    {
+        "title": {
+            "uz": "Taxtalar",
+            "ru": "Доски",
+            "en": "Wood boards"
+        },"dsc":{
+            "uz":"",
+            "ru":"Биопродукты от «Свезы» безопасны для здоровья и природы, выгодны, удобны в хранении и транспортировке, а также имеют постоянную температуру на всем протяжении горения.",
+            "en":"Our biomass fuel products are safe, sustainable, and cost-efficient biomass fuel products that are easy to transport and store. They provide high calorific value, even burning temperature, and low smoke generation."
+        },
+        "img": "/categories/img_3.webp",
+        "_id": "69a127f14f7c8ee695a4d863",
+        "__v": 0
+    }
+]

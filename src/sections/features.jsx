@@ -30,7 +30,7 @@ function Features({ lang }) {
               key={key}
               className="flex p-0 items-center flex-col justify-start max-w-55 transition-colors duration-1000 hover:scale-110 rounded-lg  text-center"
             >
-              <div className="shrink-0 p-3 bg-emerald-100 rounded-lg text-emerald-600">
+              <div className="shrink-0 p-3 bg-[#FF7200] rounded-lg text-emerald-600">
                 <ImageWithLoader src={item.icon} alt={item.title} size="w-25 h-25"/>
               </div>
               <div className="ml-4 w-full flex mt-2 items-center flex-col justify-center">

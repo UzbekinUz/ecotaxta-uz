@@ -11,15 +11,14 @@ import CategoryPage from "./pages/categoryPage";
 import Delivery from "./pages/deliveryPage";
 import ContactPage from "./pages/contactPage";
 import useStore from "./helper/store";
+import Product from "./sections/product";
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   const [lang, setLang] = useState("ru");
   const [page, setPage] = useState({ status: "home", id: "" });
   const [back, setBack] = useState({ status: "home", id: "" });
-  const { 
-    product, refP, fetchProducts,
-    category, refC, fetchCategories 
-  } = useStore();
+  const { product, refP, fetchProducts, category, refC, fetchCategories } =
+    useStore();
   useEffect(() => {
     fetchProducts();
     fetchCategories();
@@ -27,7 +26,6 @@ const App = () => {
       setLoading(false);
     }, 0);
     return () => clearTimeout(timer);
-  
   }, [fetchCategories, fetchProducts]);
 
   return isLoading ? (
@@ -53,6 +51,16 @@ const App = () => {
           category={category}
           product={product}
           refP={refP}
+        />
+      ) : page.status === "products" ? (
+        <Product
+          setBack={setBack}
+          lang={lang}
+          page={page}
+          setPage={setPage}
+          category={category}
+          product={product}
+          refC={refC}
         />
       ) : page.status === "category" ? (
         <CategoryPage

@@ -8,7 +8,7 @@ function ProductSlideBar({ page, setPage,  lang , Lang, product}) {
   };
   return (
     <div className="md:max-w-3xl w-full ">
-      <div className="bg-white shadow-sm border border-gray-100 pt-6 px-0 sticky top-8">
+      <div className="bg-white shadow-sm border  border-gray-100 pt-6 px-0 sticky top-8">
         <h3 className="text-lg font-bold ml-3 text-gray-900 mb-6 flex items-center">
           <span className="w-2 h-6 bg-red-600 rounded-full mr-3"></span>
           {lang === "uz"
@@ -18,7 +18,7 @@ function ProductSlideBar({ page, setPage,  lang , Lang, product}) {
               : "Products"}
         </h3>
 
-        <div className="space-y-0  ">
+        <div className="space-y-0 max-h-170 overflow-y-auto scrollbar-hide ">
           {product.map((item) => (
             <button
               key={item._id}
