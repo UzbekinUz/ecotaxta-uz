@@ -155,7 +155,7 @@ function Navbar({ lang, setPage, setBack, category, setLang }) {
 
       {isMenuOpen && (
         <div className="lg:hidden bg-white border-t min-h-screen border-gray-100 absolute w-full shadow-lg">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="px-2 pt-2 pb-3 space-y-1 relative z-20 sm:px-3">
             <button
               type="button"
               onClick={() => navigateTo({ status: "products", id: "" })}
@@ -167,7 +167,7 @@ function Navbar({ lang, setPage, setBack, category, setLang }) {
             {category.map((item) => (
               <div
                 key={item._id}
-                className="grid grid-cols-1 gap-1 h-full items-center z-10"
+                className="grid grid-cols-1 gap-1 h-full items-center z-20"
               >
                 <button
                   type="button"
