@@ -10,6 +10,7 @@ import ProductPage from "./pages/productPage";
 import CategoryPage from "./pages/categoryPage";
 import Delivery from "./pages/deliveryPage";
 import ContactPage from "./pages/contactPage";
+import DocumentPage from "./pages/documentPage";
 import useStore from "./helper/store";
 import Product from "./sections/product";
 const App = () => {
@@ -99,6 +100,15 @@ const App = () => {
           lang={lang}
           page={page}
           setPage={setPage}
+          category={category}
+          product={product}
+        />
+      ) : page.status === "document" ? (
+        <DocumentPage
+          lang={lang}
+          page={page}
+          setPage={setPage}
+          back={back}
           category={category}
           product={product}
         />
