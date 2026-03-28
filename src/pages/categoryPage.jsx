@@ -183,7 +183,7 @@ function CategoryPage({ page, lang, setPage, setBack, category, product }) {
                                 onClick={() => goToPage(pageNumber)}
                                 className={`w-10 h-10 rounded-xl font-bold transition-all ${
                                   currentPage === pageNumber
-                                    ? "bg-blue-600 text-white shadow-lg shadow-blue-200"
+                                    ? "bg-[#F58220] text-white shadow-lg shadow-blue-200"
                                     : "bg-white text-gray-600 border border-gray-200 hover:border-blue-300 hover:bg-blue-50"
                                 }`}
                               >
@@ -205,10 +205,6 @@ function CategoryPage({ page, lang, setPage, setBack, category, product }) {
                           <ChevronRight size={24} />
                         </button>
                       </div>
-
-                      <p className="text-sm text-gray-500 font-medium">
-                        Sahifa {currentPage} / {totalPages}
-                      </p>
                     </div>
                   )}
                 </div>
@@ -236,7 +232,7 @@ function CategoryPage({ page, lang, setPage, setBack, category, product }) {
                       setPage({ status: "category", id: item._id });
                       scrollToTop();
                     }}
-                    className="w-full cursor-pointer flex items-center gap-3 p-3 border-red-50 ring-2 ring-red-100 hover:bg-red-200 transition-all duration-200 text-left border bg-white border-transparent hover:bg-gray-200"
+                    className="w-full cursor-pointer flex items-center gap-3 p-3 border-red-50 ring-2 ring-red-100 hover:bg-red-200 transition-all duration-200 text-left border bg-white"
                   >
                     <div className="flex flex-col overflow-hidden">
                       <span className="text-sm font-semibold truncate text-gray-800">

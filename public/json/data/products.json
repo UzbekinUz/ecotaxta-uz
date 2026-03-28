@@ -133,6 +133,526 @@
     },
     {
         "name": {
+            "ru": "SVEZA ФСФ",
+            "uz": "SVEZA FSF",
+            "en": "SVEZA FSF"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Высококачественная фанера из 100% берёзовой древесины обладает высокими показателями прочности и влагостойкости. Используется как для внутренних, так и для наружных работ.",
+            "uz": "100% qayin yog'ochidan tayyorlangan yuqori sifatli fanera yuqori mustahkamlik va namlikka chidamlilik xususiyatlariga ega. Ham ichki, ham tashqi ishlar uchun ishlatiladi.",
+            "en": "High-quality plywood made of 100% birch wood has high strength and moisture resistance. It is used for both indoor and outdoor work."
+        },
+        "description": {
+            "ru": "Высококачественная фанера ФСФ из 100%-ной берёзовой древесины обладает высокими показателями прочности и влагостойкости. Используется как для внутренних, так и для наружных работ.<br/><br/>SVEZA Regular Exterior сохраняет эксплуатационные свойства в условиях повышенной влажности: не деформируется, не разбухает.",
+            "uz": "100% qayin yog'ochidan tayyorlangan yuqori sifatli FSF fanerasi yuqori mustahkamlik va namlikka chidamlilik xususiyatlariga ega. Ham ichki, ham tashqi ishlar uchun ishlatiladi.<br/><br/>SVEZA Regular Exterior yuqori namlik sharoitida o'zining ekspluatatsion xususiyatlarini saqlab qoladi: deformatsiyalanmaydi, shishmaydi.",
+            "en": "High-quality FSF plywood made from 100% birch wood has high strength and moisture resistance. It is used for both indoor and outdoor work.<br/><br/>SVEZA Regular Exterior maintains its performance properties in high humidity conditions: it does not deform or swell."
+        },
+        "_id": 1,
+        "img": "/products/sveza1.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA ФК",
+            "uz": "SVEZA FK",
+            "en": "SVEZA FK"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Высококачественный конструкционный материал, обладающий высокой прочностью и привлекательным внешним видом поверхности. Оптимально подходит для внутренних работ. ",
+            "uz": "Yuqori mustahkamlikka va jozibali tashqi ko'rinishga ega yuqori sifatli konstruksion material. Ichki ishlar uchun juda mos keladi.",
+            "en": "High-quality structural material with high strength and an attractive surface appearance. Optimally suited for interior work."
+        },
+        "description": {
+            "ru": "Высококачественный конструкционный материал, обладающий высокой прочностью и привлекательным внешним видом поверхности.<br/><br/>Легко поддается обработке и прекрасно сочетается с отделочными материалами. SVEZA ФК выдерживает воздействие влаги, но не рекомендуем использовать её для внешних работ. Оптимальная сфера применения материала — внутри помещений (для мебели или игрушек).",
+            "uz": "Yuqori mustahkamlikka va jozibali tashqi ko'rinishga ega yuqori sifatli konstruksion material.<br/><br/>Oson ishlov beriladi va pardozlash materiallari bilan mukammal darajada mos keladi. SVEZA FK namlikka bardosh beradi, lekin uni tashqi ishlar uchun ishlatishni tavsiya etmaymiz. Materialdan foydalanishning optimal sohasi — binolar ichida (mebel yoki o'yinchoqlar uchun).",
+            "en": "High-quality structural material with high strength and an attractive surface appearance.<br/><br/>It is easy to process and blends perfectly with finishing materials. SVEZA FK withstands moisture, but we do not recommend using it for outdoor work. The optimal scope of the material is indoors (for furniture or toys)."
+        },
+        "_id": 2,
+        "img": "/products/sveza2.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA UV",
+            "uz": "SVEZA UV",
+            "en": "SVEZA UV"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Фанера с инновационным многослойным UV-отверждаемым покрытием для придания поверхности особых декоративных свойств.",
+            "uz": "Sirtga o'ziga xos dekorativ xususiyatlar berish uchun innovatsion ko'p qatlamli UV-quritish qoplamasiga ega fanera.",
+            "en": "Plywood with an innovative multi-layer UV-curable coating to give the surface special decorative properties."
+        },
+        "description": {
+            "ru": "Фанера с инновационным многослойным UV-отверждаемым покрытием для придания поверхности особых декоративных свойств.<br/><br/>UV-покрытие (Ultraviolet coating) — специальное многослойное покрытие<br/><br/>УФ-отверждаемыми лакокрасочными материалами. Оно защищает материал от внешних воздействий и подчёркивает природную текстуру березового шпона, позволяет получать поверхность различных цветов, оттенков и степени прозрачности.<br/><br/>Фанера полностью готова для дальнейшего раскроя и изготовления элементов мебели и интерьеров.",
+            "uz": "Sirtga o'ziga xos dekorativ xususiyatlar berish uchun innovatsion ko'p qatlamli UV-quritish qoplamasiga ega fanera.<br/><br/>UV-qoplama (Ultraviolet coating) — UV-nurlari yordamida quriydigan lak-bo'yoq materiallari bilan qoplangan maxsus ko'p qatlamli qoplama. U materialni tashqi ta'sirlardan himoya qiladi va qayin shponining tabiiy teksturasini ta'kidlaydi, turli xil ranglar, soyalar va shaffoflik darajalariga ega sirtlarni olish imkonini beradi.<br/><br/>Fanera mebel elementlari va interyerlarni kesish va ishlab chiqarish uchun to'liq tayyor.",
+            "en": "Plywood with an innovative multi-layer UV-curable coating to give the surface special decorative properties.<br/><br/>UV-coating (Ultraviolet coating) is a special multi-layer coating with UV-curable paint and varnish materials. It protects the material from external influences and emphasizes the natural texture of birch veneer, allowing for surfaces of various colors, shades, and degrees of transparency.<br/><br/>The plywood is completely ready for further cutting and manufacturing of furniture elements and interiors."
+        },
+        "_id": 3,
+        "img": "/products/sveza3.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Parquet Standard",
+            "uz": "SVEZA Parquet Standard",
+            "en": "SVEZA Parquet Standard"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Высокопрочная белая фанера, калиброванная для производства паркетной доски. ",
+            "uz": "Parket taxtasi ishlab chiqarish uchun kalibrlangan, yuqori mustahkamlikka ega oq fanera.",
+            "en": "High-strength white plywood, calibrated for the production of parquet boards."
+        },
+        "description": {
+            "ru": "100% берёзовая основа, отвечающая основным требованиям производителей паркетной доски. Позволяет сокращать затраты, обеспечивая стабильность инженерной доски.<br/><br/>Мы предлагаем два варианта SVEZA Parquet — Standard и Premium. Более подробную информацию о SVEZA Parquet Premium читайте по ссылке.",
+            "uz": "Parket taxtasi ishlab chiqaruvchilarining asosiy talablariga javob beradigan 100% qayin asosi. Muhandislik taxtasining barqarorligini ta'minlab, xarajatlarni kamaytirishga imkon beradi.<br/><br/>Biz SVEZA Parquet'ning ikki xil variantini taklif qilamiz — Standard va Premium. SVEZA Parquet Premium haqida batafsil ma'lumotni havola orqali o'qishingiz mumkin.",
+            "en": "100% birch base that meets the basic requirements of parquet board manufacturers. Allows to reduce costs while ensuring the stability of the engineering board.<br/><br/>We offer two variants of SVEZA Parquet — Standard and Premium. Read more information about SVEZA Parquet Premium at the link."
+        },
+        "_id": 4,
+        "img": "/products/sveza4.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Parquet Premium",
+            "uz": "SVEZA Parquet Premium",
+            "en": "SVEZA Parquet Premium"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Высокопрочная белая фанера, калиброванная для производства паркетной доски. ",
+            "uz": "Parket taxtasi ishlab chiqarish uchun kalibrlangan, yuqori mustahkamlikka ega oq fanera.",
+            "en": "High-strength white plywood, calibrated for the production of parquet boards."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая основа, отвечающая основным требованиям производителей паркетной доски. Позволяет сокращать затраты, обеспечивая стабильность инженерной доски.<br/><br/>Мы предлагаем два варианта SVEZA Parquet — Standard и Premium. Более подробную информацию о SVEZA Parquet Premium читайте по ссылке.",
+            "uz": "Parket taxtasi ishlab chiqaruvchilarining asosiy talablariga javob beradigan 100% qayin asosi. Muhandislik taxtasining barqarorligini ta'minlab, xarajatlarni kamaytirishga imkon beradi.<br/><br/>Biz SVEZA Parquet'ning ikki xil variantini taklif qilamiz — Standard va Premium. SVEZA Parquet Premium haqida batafsil ma'lumotni havola orqali o'qishingiz mumkin.",
+            "en": "100% birch base that meets the basic requirements of parquet board manufacturers. Allows to reduce costs while ensuring the stability of the engineering board.<br/><br/>We offer two variants of SVEZA Parquet — Standard and Premium. Read more information about SVEZA Parquet Premium at the link."
+        },
+        "_id": 5,
+        "img": "/products/sveza5.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Drawer",
+            "uz": "SVEZA Drawer",
+            "en": "SVEZA Drawer"
+        },
+        "content": {
+            "ru": "Специальная фанера для изготовления деталей ящиков и других компонентов мебели, предполагающих раскрой, фрезерование и механическую обработку пластей и кромок.",
+            "uz": "G'aladon qismlari va mebelning boshqa qismlarini ishlab chiqarish uchun maxsus fanera, u sirt va qirralarni kesish, frezalash va mexanik ishlov berishni nazarda tutadi.",
+            "en": "Special plywood for the manufacture of drawer parts and other furniture components, involving cutting, milling and machining of faces and edges."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "Специальная фанера для изготовления деталей ящиков и других компонентов мебели, предполагающих раскрой, фрезерование и механическую обработку пластей и кромок.<br/><br/>Дополнительный контроль прочности позволяет создавать качественное соединение типа «ласточкиного хвоста». Увеличенная толщина наружного слоя обеспечивает идеальную поверхность для подготовки поверхности к покраске. SVEZA Drawer обеспечивает максимально натуральный вид поверхности.",
+            "uz": "G'aladon qismlari va mebelning boshqa qismlarini ishlab chiqarish uchun maxsus fanera, u sirt va qirralarni kesish, frezalash va mexanik ishlov berishni nazarda tutadi.<br/><br/>Qo'shimcha mustahkamlik nazorati «qaldirg'och dumi» turidagi sifatli ulanishni yaratishga imkon beradi. Tashqi qatlamning kattalashtirilgan qalinligi sirtni bo'yashga tayyorlash uchun ideal sirtni ta'minlaydi. SVEZA Drawer sirtning maksimal darajada tabiiy ko'rinishini ta'minlaydi.",
+            "en": "Special plywood for the manufacture of drawer parts and other furniture components, involving cutting, milling and machining of faces and edges.<br/><br/>Additional strength control allows for high-quality dovetail joints. The increased thickness of the outer layer provides an ideal surface for surface preparation for painting. SVEZA Drawer provides the most natural look to the surface."
+        },
+        "_id": 6,
+        "img": "/products/sveza6.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Overlay Standard",
+            "uz": "SVEZA Overlay Standard",
+            "en": "SVEZA Overlay Standard"
+        },
+        "content": {
+            "ru": "Специальная фанера для облицовывания различными материалами. ",
+            "uz": "Turli xil materiallar bilan qoplash uchun mo'ljallangan maxsus fanera.",
+            "en": "Special plywood for overlaying with various materials."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "100%-ная берёзовая фанера с идеально гладкой поверхностью для облицовки различными материалами.<br/><br/>Мы предлагаем фанеру Sveza Overlay в двух классах: Standard и Premium. Подробнее о фанере Sveza Overlay Premium смотрите по ссылке.",
+            "uz": "Turli xil materiallar bilan qoplash uchun ideal darajada silliq sirtga ega bo'lgan 100% qayin fanerasi.<br/><br/>Biz Sveza Overlay fanerasini ikki sinfda taklif qilamiz: Standard va Premium. Sveza Overlay Premium fanerasi haqida batafsil ma'lumotni havola orqali ko'ring.",
+            "en": "100% birch plywood with a perfectly smooth surface for overlaying with various materials.<br/><br/>We offer Sveza Overlay plywood in two grades: Standard and Premium. See the link for more details about Sveza Overlay Premium plywood."
+        },
+        "_id": 7,
+        "img": "/products/sveza7.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Overlay Premium",
+            "uz": "",
+            "en": ""
+        },
+        "content": {
+            "ru": "Специальная фанера для облицовывания различными материалами. ",
+            "uz": "",
+            "en": ""
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "100%-ная березовая фанера с идеально гладкой поверхностью для облицовки различными материалами. Мы предлагаем фанеру SVEZA Overlay в двух классах: Standard и Premium. Подробнее о фанере SVEZA Overlay Standard смотрите по ссылке.",
+            "uz": "",
+            "en": ""
+        },
+        "_id": 8,
+        "img": "/products/sveza8.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Color",
+            "uz": "SVEZA Color",
+            "en": "SVEZA Color"
+        },
+        "content": {
+            "ru": "Ламинированная фанера со специальным цветным износостойким покрытием. ",
+            "uz": "Maxsus rangli aşınmaya bardoshli qoplamali laminatlangan fanera.",
+            "en": "Laminated plywood with a special colored wear-resistant coating."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "Ламинированная фанера со специальным цветным износостойким покрытием. Повышенная стойкость верхнего слоя к УФ-излучению, влагостойкий клей и высококачественная пленка позволяют использовать SVEZA Color не только для внутренних, но и для наружных работ, где требуется цветная поверхность.",
+            "uz": "Maxsus rangli aşınmaya bardoshli qoplamali laminatlangan fanera. Yuqori qatlamning UV-nurlariga yuqori chidamliligi, namlikka chidamli yelim va yuqori sifatli plyonka SVEZA Color-ni nafaqat ichki, balki rangli sirt talab qilinadigan tashqi ishlar uchun ham ishlatishga imkon beradi.",
+            "en": "Laminated plywood with a special colored wear-resistant coating. Increased resistance of the top layer to UV radiation, moisture-resistant glue and high-quality film allow SVEZA Color to be used not only for interior, but also for outdoor work where a colored surface is required."
+        },
+        "_id": 9,
+        "img": "/products/sveza9.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Toy",
+            "uz": "SVEZA Toy",
+            "en": "SVEZA Toy"
+        },
+        "content": {
+            "ru": "Ламинированная фанера со специальным цветным износостойким покрытием. ",
+            "uz": "Maxsus rangli aşınmaya bardoshli qoplamali laminatlangan fanera.",
+            "en": "Laminated plywood with a special colored wear-resistant coating."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "Экологичная фанера из 100%-ной березовой древесины, специально разработанная для производства игрушек и детской мебели. Обеспечивает максимальную безопасность готовых изделий.<br/><br/>Как один из немногих держателей сертификата CARB ULEF* компания гарантирует соответствие материала самым высоким международным требованиям по безопасности. Производится в высоких сортах B/BB и BB/BB: обладает естественной красотой, что важно для детских игрушек и мебели.<br/><br/>*Директива CARB ATCM § 93120.3 (d) (ULEF) на фанеру «СВЕЗА» марки ФК.",
+            "uz": "O'yinchoqlar va bolalar mebellarini ishlab chiqarish uchun maxsus ishlab chiqilgan 100% qayin yog'ochidan tayyorlangan ekologik toza fanera. Tayyor mahsulotlarning maksimal xavfsizligini ta'minlaydi.<br/><br/>CARB ULEF* sertifikatining kam sonli egalaridan biri sifatida kompaniya materialning eng yuqori xalqaro xavfsizlik talablariga muvofiqligini kafolatlaydi. B/BB va BB/BB yuqori navlarida ishlab chiqariladi: tabiiy go'zallikka ega, bu bolalar o'yinchoqlari va mebellari uchun juda muhimdir.<br/><br/>*SVEZA FK markali fanera uchun CARB ATCM § 93120.3 (d) (ULEF) direktivasi.",
+            "en": "Eco-friendly plywood made of 100% birch wood, specially developed for the production of toys and children's furniture. Provides maximum safety of finished products.<br/><br/>As one of the few holders of the CARB ULEF* certificate, the company guarantees compliance of the material with the highest international safety requirements. Produced in high grades B/BB and BB/BB: has natural beauty, which is important for children's toys and furniture.<br/><br/>*CARB ATCM Directive § 93120.3 (d) (ULEF) for SVEZA FK grade plywood."
+        },
+        "_id": 10,
+        "img": "/products/sveza10.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA LVL",
+            "uz": "SVEZA LVL",
+            "en": "SVEZA LVL"
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "content": {
+            "ru": "Однонаправленная 100%-ная берёзовая фанера для элементов мебели. ",
+            "uz": "Mebel elementlari uchun bir yo'nalishli 100% qayin fanerasi.",
+            "en": "Unidirectional 100% birch plywood for furniture elements."
+        },
+        "description": {
+            "ru": "Однонаправленная 100%-ная берёзовая фанера для элементов мебели. Сохраняет свои свойства на протяжении всего срока эксплуатации. Отличается правильной геометрической формой, не подвержена короблению и высокими прочностными характеристиками ― прочность при изгибе существенно выше, чем у бруса из хвои.",
+            "uz": "Mebel elementlari uchun bir yo'nalishli 100% qayin fanerasi. Butun foydalanish muddati davomida o'z xususiyatlarini saqlab qoladi. To'g'ri geometrik shakli bilan ajralib turadi, qiyshayishga moyil emas va yuqori mustahkamlik xususiyatlariga ega — egilishdagi mustahkamligi ignabargli yog'ochdan yasalgan brusdan sezilarli darajada yuqori.",
+            "en": "Unidirectional 100% birch plywood for furniture elements. Retains its properties throughout the entire service life. It features a regular geometric shape, is not subject to warping and has high strength characteristics — the bending strength is significantly higher than that of softwood timber."
+        },
+        "_id": 11,
+        "img": "/products/sveza11.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Puzzle",
+            "uz": "SVEZA Puzzle",
+            "en": "SVEZA Puzzle"
+        },
+        "content": {
+            "ru": "Идеальная фанера премиум класса для лазерной вырезки сложных и точных моделей. ",
+            "uz": "Murakkab va aniq modellarni lazer bilan kesish uchun ideal premium klassdagi fanera.",
+            "en": "Ideal premium class plywood for laser cutting of complex and accurate models."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "description": {
+            "ru": "Идеальная фанера премиум-класса для лазерной вырезки сложных и точных моделей. Материал полностью соответствует требованиям производителей сувенирных изделий, работающих с лазерным оборудованием.<br/><br/>SVEZA Puzzle ― единственная фанера толщиной менее 7 мм с гарантией плоскостности. Во внутренних слоях используется только шпон сорта В, допуски по ширине ±0,2 мм.<br/><br/>Основное достоинство продукта — 100%-ное отсутствие каких-либо изменений плотности внутри листа.",
+            "uz": "Murakkab va aniq modellarni lazer bilan kesish uchun ideal premium klassdagi fanera. Material lazer uskunalari bilan ishlaydigan suvenir buyumlari ishlab chiqaruvchilarining talablariga to'liq javob beradi.<br/><br/>SVEZA Puzzle — qalinligi 7 mm dan kam bo'lgan, tekislik kafolatiga ega yagona fanera. Ichki qatlamlarda faqat V navli shpon ishlatiladi, kenglik bo'yicha ruxsat etilgan farq ±0,2 mm.<br/><br/>Mahsulotning asosiy afzalligi — varaq ichida zichlikning hech qanday o'zgarishi 100% mavjud emasligi.",
+            "en": "Ideal premium class plywood for laser cutting of complex and accurate models. The material fully meets the requirements of manufacturers of souvenir products working with laser equipment.<br/><br/>SVEZA Puzzle is the only plywood less than 7 mm thick with a flatness guarantee. Only B grade veneer is used in the inner layers, width tolerances are ±0.2 mm.<br/><br/>The main advantage of the product is the 100% absence of any changes in density within the sheet."
+        },
+        "_id": 12,
+        "img": "/products/sveza12.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Uniplywood",
+            "uz": "SVEZA Uniplywood",
+            "en": "SVEZA Uniplywood"
+        },
+        "content": {
+            "ru": "Однонаправленная фанера с двумя поперечными слоями и усиленной прочностью клеевого соединения продольных слоев. Разработана для дверных проёмов и элементов мебели.",
+            "uz": "Ikkita ko'ndalang qatlamga ega va bo'ylama qatlamlarning yelimli birikmasi mustahkamligi oshirilgan bir yo'nalishli fanera. Eshik romlari va mebel elementlari uchun ishlab chiqilgan.",
+            "en": "Unidirectional plywood with two transverse layers and reinforced strength of the glue joint of the longitudinal layers. Developed for doorways and furniture elements."
+        },
+        "description": {
+            "ru": "Однонаправленная 100%-ная берёзовая фанера с двумя поперечными слоями и усиленной прочностью клеевого соединения продольных слоев. Материал разработан специально для производителей дверей, чтобы решить проблемы изготовителей наличников и дверных коробов.",
+            "uz": "Ikkita ko'ndalang qatlamga ega va bo'ylama qatlamlarning yelimli birikmasi mustahkamligi oshirilgan bir yo'nalishli 100% qayin fanerasi. Material eshik ishlab chiqaruvchilari uchun, eshik naqshlari va qutilari ishlab chiqaruvchilarining muammolarini hal qilish uchun maxsus ishlab chiqilgan.",
+            "en": "Unidirectional 100% birch plywood with two transverse layers and reinforced strength of the glue joint of the longitudinal layers. The material was developed specifically for door manufacturers to solve the problems of manufacturers of architraves and door frames."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 13,
+        "img": "/products/sveza13.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Paint",
+            "uz": "SVEZA Paint",
+            "en": "SVEZA Paint"
+        },
+        "content": {
+            "ru": "Ламинированная берёзовая фанера со специальным покрытием под покраску.",
+            "uz": "Bo'yash uchun maxsus qoplamali laminatlangan qayin fanerasi.",
+            "en": "Laminated birch plywood with a special coating for painting."
+        },
+        "description": {
+            "ru": "100%-ная березовая фанера со специальным покрытием под покраску. Позволяет получить гладкую износостойкую поверхность без трещин, подходит в качестве базы для любых цветов.<br/><br/>Может быть использована для внутренней и внешней видов отделки помещений, включая декорирование стен, фасадов, дверей, мебели, внутреннего оснащения транспортных средств и спортивного снаряжения.",
+            "uz": "Bo'yash uchun maxsus qoplamali 100% qayin fanerasi. Yoriqlarsiz silliq, aşınmaya bardoshli sirt olish imkonini beradi, har qanday ranglar uchun asos sifatida mos keladi.<br/><br/>Binolarni ichki va tashqi pardozlashda, jumladan devorlar, fasadlar, eshiklar, mebellar, transport vositalarining ichki jihozlari va sport anjomlarini bezashda ishlatilishi mumkin.",
+            "en": "100% birch plywood with a special coating for painting. Allows for a smooth wear-resistant surface without cracks, suitable as a base for any colors.<br/><br/>Can be used for interior and exterior decoration of premises, including decoration of walls, facades, doors, furniture, internal equipment of vehicles and sports equipment."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 14,
+        "img": "/products/sveza14.webp"
+    },
+    {
+        "name": {
+            "ru": "Ламинированная фанера SVEZA",
+            "uz": "SVEZA laminatlangan fanerasi",
+            "en": "Laminated plywood SVEZA"
+        },
+        "content": {
+            "ru": "Ламинированная фанера, покрытая специальным износостойким материалом. ",
+            "uz": "Maxsus aşınmaya bardoshli material bilan qoplangan laminatlangan fanera.",
+            "en": "Laminated plywood covered with a special wear-resistant material."
+        },
+        "description": {
+            "ru": "Высококачественная берёзовая фанера ФСФ, облицованная пленкой на основе термореактивных полимеров, предназначенная для применения в строительных конструкциях и транспортном машиностроении. Благодаря этому поверхность материала устойчива к влаге, истиранию, химикатам, образованию грибка и плесени.<br/><br/>Производится с гладкой и сетчатой (нескользящей) поверхностью .<br/><br/>Ламинированная фанера соответствует отраслевым требованиям, предъявляемым к материалам, которые применяются при производстве пассажирского транспорта (правила ЕЭК ООН N 118) и опалубочных систем (ГОСТ -34329-2017 «Опалубка. Общие технические требования»).",
+            "uz": "Qurilish konstruksiyalari va transport mashinasozligida qo'llash uchun mo'ljallangan, termoreaktiv polimerlar asosidagi plyonka bilan qoplangan yuqori sifatli qayin FSF fanerasi. Shuning uchun material sirti namlikka, ishqalanishga, kimyoviy moddalarga, qo'ziqorin va mog'or paydo bo'lishiga chidamli.<br/><br/>Silliq va to'rli (sirpanmaydigan) sirt bilan ishlab chiqariladi.<br/><br/>Laminatlangan fanera yo'lovchi transporti ishlab chiqarishda (BMT EEK N 118 qoidalari) va qolip tizimlarida (GOST -34329-2017 «Qolip. Umumiy texnik talablar») qo'llaniladigan materiallarga qo'yiladigan soha talablariga javob beradi.",
+            "en": "High-quality birch FSF plywood, lined with a film based on thermosetting polymers, intended for use in building structures and transport engineering. Thanks to this, the surface of the material is resistant to moisture, abrasion, chemicals, fungus and mold.<br/><br/>Produced with smooth and mesh (non-slip) surfaces.<br/><br/>Laminated plywood meets industry requirements for materials used in the manufacture of passenger transport (UN ECE Regulation No. 118) and formwork systems (GOST -34329-2017 'Formwork. General technical requirements')."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 15,
+        "img": "/products/sveza15.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Deck 350",
+            "uz": "SVEZA Deck 350",
+            "en": "SVEZA Deck 350"
+        },
+        "content": {
+            "ru": "Лучшее решение для опалубки перекрытий — ламинированная фанера с разметочной сеткой для быстрой и точной установки опалубки. ",
+            "uz": "Yopiq qoliplar uchun eng yaxshi yechim — qoliplarni tez va aniq o'rnatish uchun markalash tarmog'iga ega laminatlangan fanera.",
+            "en": "The best solution for floor slab formwork — laminated plywood with a marking grid for fast and accurate formwork installation."
+        },
+        "description": {
+            "ru": "Лучшее решение для опалубки перекрытий — ламинированная фанера с разметочной сеткой для быстрой и точной установки опалубки.<br/><br/>Рисунок-сетка на SVEZA Deck 350 имеет шаг 25, 50 и 100 мм. Это упрощает разметку и раскрой фанеры, служит ориентиром для укладки арматуры, что снижает трудозатраты на стройплощадке. Торцы SVEZA Deck 350 покрашены специальной краской на основе акрилата с низкой водопроницаемостью.<br/><br/>* Фанера с разметочной сеткой является инновационным продуктом ГК «СВЕЗА», что подтверждается патентом Российской Федерации и зарубежных стран.",
+            "uz": "Yopiq qoliplar uchun eng yaxshi yechim — qoliplarni tez va aniq o'rnatish uchun markalash tarmog'iga ega laminatlangan fanera.<br/><br/>SVEZA Deck 350 dagi to'rli naqsh 25, 50 va 100 mm qadamga ega. Bu fanerani markalash va kesishni osonlashtiradi, armatura yotqizish uchun mo'ljallangan bo'lib, qurilish maydonchasida mehnat sarfini kamaytiradi. SVEZA Deck 350 uchlari suv o'tkazuvchanligi past bo'lgan akrilat asosidagi maxsus bo'yoq bilan bo'yalgan.<br/><br/>* Markalash tarmog'iga ega fanera «SVEZA» kompaniyalar guruhining innovatsion mahsuloti hisoblanadi, bu Rossiya Federatsiyasi va xorijiy davlatlar patentlari bilan tasdiqlangan.",
+            "en": "The best solution for floor slab formwork — laminated plywood with a marking grid for fast and accurate formwork installation.<br/><br/>The grid pattern on SVEZA Deck 350 has a pitch of 25, 50 and 100 mm. This simplifies the marking and cutting of plywood, serves as a guide for laying reinforcement, which reduces labor costs on the construction site. The ends of SVEZA Deck 350 are painted with a special acrylate-based paint with low water permeability.<br/><br/>* Plywood with a marking grid is an innovative product of the SVEZA Group of Companies, which is confirmed by a patent of the Russian Federation and foreign countries."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 16,
+        "img": "/products/sveza16.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Flex uncoated",
+            "uz": "SVEZA Flex uncoated",
+            "en": "SVEZA Flex uncoated"
+        },
+        "content": {
+            "ru": "Гибкая фанера со специальной структурой плиты с широким диапазоном регулирования.",
+            "uz": "Keng sozlash diapazoniga ega maxsus plita tuzilishiga ega bo'lgan egiluvchan fanera.",
+            "en": "Flexible plywood with a special board structure with a wide range of adjustment."
+        },
+        "description": {
+            "ru": "SVEZA Flex uncoated – гибкая фанера со специальной структурой плиты с широким диапазоном регулирования. Применяется для строительства и облицовки объектов со сложной геометрией. Фанера подстраивается под любые радиусы от 0,3 м без дополнительных доработок и повышенного механического давления.<br/><br/>* Гибкая фанера SVEZA Flex является инновационным продуктом ГК «СВЕЗА», что подтверждается патентом Российской Федерации.",
+            "uz": "SVEZA Flex uncoated – keng sozlash diapazoniga ega maxsus plita tuzilishiga ega bo'lgan egiluvchan fanera. Murakkab geometriyali ob'ektlarni qurish va qoplash uchun qo'llaniladi. Fanera 0,3 m dan boshlab har qanday radiuslarga qo'shimcha ishlovsiz va yuqori mexanik bosimsiz moslashadi.<br/><br/>* SVEZA Flex egiluvchan fanerasi «SVEZA» kompaniyalar guruhining innovatsion mahsuloti hisoblanadi, bu Rossiya Federatsiyasi patenti bilan tasdiqlangan.",
+            "en": "SVEZA Flex uncoated – flexible plywood with a special board structure with a wide range of adjustment. It is used for construction and cladding of objects with complex geometry. Plywood adapts to any radii from 0.3 m without additional improvements and increased mechanical pressure.<br/><br/>* SVEZA Flex flexible plywood is an innovative product of the SVEZA Group of Companies, which is confirmed by a patent of the Russian Federation."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 17,
+        "img": "/products/sveza17.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Monolith",
+            "uz": "SVEZA Monolith",
+            "en": "SVEZA Monolith"
+        },
+        "content": {
+            "ru": "Фанера со специальным многослойным покрытием УФ-отверждаемыми лакокрасочными материалами.",
+            "uz": "Ultrabinafsha nurlari bilan quriydigan bo'yoq va lak materiallaridan tayyorlangan maxsus ko'p qatlamli qoplamali fanera.",
+            "en": "Plywood with a special multi-layer coating of UV-curable paint and varnish materials."
+        },
+        "description": {
+            "ru": "Инновационное решение из 100%-ной березовой древесины со специальным многослойным покрытием УФ-отверждаемыми лакокрасочными материалами. Защищает от внешних воздействий и гарантирует снижение адгезии поверхности к бетону. Применяется для монолитного строительства.<br/><br/>SVEZA Monolith можно придать любой цвет: кастомизируем продукт под ваш запрос.",
+            "uz": "100% qayin yog'ochidan tayyorlangan, maxsus ko'p qatlamli ultrabinafsha nurlar bilan quriydigan bo'yoq materiallari bilan qoplangan innovatsion yechim. Tashqi ta'sirlardan himoya qiladi va sirtning betonga yopishishini kamaytirishni kafolatlaydi. Monolit qurilish uchun qo'llaniladi.<br/><br/>SVEZA Monolith'ga har qanday rang berish mumkin: mahsulotni so'rovingizga ko'ra moslashtiramiz.",
+            "en": "An innovative solution made of 100% birch wood with a special multi-layer UV-curable coating. It protects against external influences and guarantees reduced surface adhesion to concrete. Used for monolithic construction.<br/><br/>SVEZA Monolith can be given any color: we customize the product according to your request."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 18,
+        "img": "/products/sveza18.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Oil",
+            "uz": "SVEZA Oil",
+            "en": "SVEZA Oil"
+        },
+        "content": {
+            "ru": "Универсальная березовая фанера для бетонных работ с малым количеством оборотов. ",
+            "uz": "Kam sonli sikllar bilan beton ishlari uchun universal qayin fanerasi.",
+            "en": "Universal birch plywood for concrete work with a low number of cycles."
+        },
+        "description": {
+            "ru": "Универсальная берёзовая фанера для бетонных работ с малым количеством оборотов (2-5 циклов)**. Сделана с применением технологии Oil Recycling.<br/><br/>Торцы SVEZA Oil защищены от влаги акриловой краской, а поверхность пропитана маслом для лучшей адгезии к бетону. Процесс промасливания осуществляется в заводских условиях и гарантирует равномерное нанесение масла. Продукт подходит для использования в малоэтажном строительстве.<br/><br/>* Возможно применение переработанного очищенного масла при производстве.<br/>** Количество циклов может варьироваться в зависимости от того, как фанера используется, чистится и хранится.",
+            "uz": "Kam sonli sikllar (2-5 sikl)** bilan beton ishlari uchun universal qayin fanerasi. Oil Recycling texnologiyasi asosida tayyorlangan.<br/><br/>SVEZA Oil uchlari namlikdan akril bo'yoq bilan himoyalangan, sirti esa betonga yaxshi yopishishi uchun moy bilan to'yintirilgan. Moylash jarayoni zavod sharoitida amalga oshiriladi va moyning bir tekis surtilishini kafolatlaydi. Mahsulot kam qavatli qurilishda foydalanish uchun mos keladi.<br/><br/>* Ishlab chiqarishda qayta ishlangan tozalangan moydan foydalanish mumkin.<br/>** Sikllar soni faneradan qanday foydalanish, tozalash va saqlashga qarab farq qilishi mumkin.",
+            "en": "Universal birch plywood for concrete work with a low number of cycles (2-5 cycles)**. Made using Oil Recycling technology.<br/><br/>The ends of SVEZA Oil are protected from moisture with acrylic paint, and the surface is impregnated with oil for better adhesion to concrete. The oiling process is carried out in factory conditions and guarantees uniform application of oil. The product is suitable for use in low-rise construction.<br/><br/>* Recycled refined oil may be used in production.<br/>** The number of cycles may vary depending on how the plywood is used, cleaned and stored."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 19,
+        "img": "/products/sveza19.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA HCV",
+            "uz": "SVEZA HCV",
+            "en": "SVEZA HCV"
+        },
+        "content": {
+            "ru": "Готовые к установке комплекты полов, изготовленные в соответствии с индивидуальными требованиями производителя.",
+            "uz": "Ishlab chiqaruvchining shaxsiy talablariga muvofiq tayyorlangan, o'rnatishga tayyor pol to'plamlari.",
+            "en": "Ready-to-install floor kits manufactured in accordance with the individual requirements of the manufacturer."
+        },
+        "description": {
+            "ru": "Готовые к установке комплекты полов, изготовленные в соответствии с индивидуальными требованиями производителя. Это позволяет гарантировать безопасную и надежную эксплуатацию пола в течение не менее 2-х лет.",
+            "uz": "Ishlab chiqaruvchining shaxsiy talablariga muvofiq tayyorlangan, o'rnatishga tayyor pol to'plamlari. Bu kamida 2 yil davomida polning xavfsiz va ishonchli ishlashini kafolatlash imkonini beradi.",
+            "en": "Ready-to-install floor kits manufactured in accordance with the individual requirements of the manufacturer. This allows us to guarantee safe and reliable operation of the floor for at least 2 years."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 20,
+        "img": "/products/sveza20.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Antinoise",
+            "uz": "SVEZA Antinoise",
+            "en": "SVEZA Antinoise"
+        },
+        "content": {
+            "ru": "Сэндвич-панель из 100% берёзовой фанеры и специального полимерного материала толщиной 2 мм. ",
+            "uz": "100% qayin fanerasi va qalinligi 2 mm bo'lgan maxsus polimer materialdan tayyorlangan sendvich panel.",
+            "en": "Sandwich panel made of 100% birch plywood and special 2 mm thick polymer material."
+        },
+        "description": {
+            "ru": "Сэндвич-панель из 100%-ной берёзовой фанеры и специального полимерного материала толщиной 2 мм. Обладает повышенной звукоизоляцией и свойством гашения конструкционных вибраций (в сравнении с классической фанерой).",
+            "uz": "100% qayin fanerasi va qalinligi 2 mm bo'lgan maxsus polimer materialdan tayyorlangan sendvich panel. Yuqori ovoz izolyatsiyasiga va konstruksion tebranishlarni so'ndirish xususiyatiga ega (klassik fanera bilan solishtirganda).",
+            "en": "Sandwich panel made of 100% birch plywood and special 2 mm thick polymer material. It has increased sound insulation and the property of damping structural vibrations (in comparison with classic plywood)."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 21,
+        "img": "/products/sveza21.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Dielectric",
+            "uz": "SVEZA Dielectric",
+            "en": "SVEZA Dielectric"
+        },
+        "content": {
+            "ru": "100% берёзовая фанера обладающая диэлектрическими свойствами. ",
+            "uz": "Dielektrik xususiyatlarga ega 100% qayin fanerasi.",
+            "en": "100% birch plywood with dielectric properties."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая фанера обладает диэлектрическими свойствами. Может применяться в различных сегментах, где требуется прочный и легкий материал, не проводящий электричество.",
+            "uz": "100% qayin fanerasi dielektrik xususiyatlarga ega. Elektr tokini o'tkazmaydigan mustahkam va engil material talab qilinadigan turli sohalarda qo'llanilishi mumkin.",
+            "en": "100% birch plywood has dielectric properties. It can be used in various segments where a strong and light material that does not conduct electricity is required."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 22,
+        "img": "/products/sveza22.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Laser Standard",
+            "uz": "SVEZA Laser Standard",
+            "en": "SVEZA Laser Standard"
+        },
+        "content": {
+            "ru": "100%-ная берёзовая фанера, специально разработанная для производства вырубных штампов.",
+            "uz": "Shtamplar ishlab chiqarish uchun maxsus ishlab chiqilgan 100% qayin fanerasi.",
+            "en": "100% birch plywood, specially developed for the production of cutting dies."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая фанера, специально разработанная для производства вырубных штампов (штанцформ или штанцевальных форм).<br/><br/>Продукт соответствует высочайшим стандартам отрасли и дает возможность производителям выбрать именно тот размер и тип покрытия, которые подойдут для производства разных типов штанцформ.<br/><br/>Также мы производим продукт SVEZA Laser Premium — фанеру с улучшенным качеством внутренних слоев. По остальным параметрам эти материалы идентичны.",
+            "uz": "Shtamplar (shtansformalar) ishlab chiqarish uchun maxsus ishlab chiqilgan 100% qayin fanerasi.<br/><br/>Mahsulot sohaning eng yuqori standartlariga javob beradi va ishlab chiqaruvchilarga har xil turdagi shtansformalar ishlab chiqarish uchun aynan mos keladigan o'lcham va qoplama turini tanlash imkonini beradi.<br/><br/>Shuningdek, biz SVEZA Laser Premium mahsulotini — ichki qatlamlari sifati yaxshilangan fanerani ham ishlab chiqaramiz. Qolgan parametrlar bo'yicha bu materiallar bir xil.",
+            "en": "100% birch plywood, specially developed for the production of cutting dies (die-cutting forms).<br/><br/>The product meets the highest industry standards and allows manufacturers to choose exactly the size and type of coating that are suitable for the production of different types of die-cutting forms.<br/><br/>We also produce SVEZA Laser Premium product — plywood with improved quality of the inner layers. In other parameters, these materials are identical."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 23,
+        "img": "/products/sveza23.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Laser Premium",
+            "uz": "SVEZA Laser Premium",
+            "en": "SVEZA Laser Premium"
+        },
+        "content": {
+            "ru": "100%-ная берёзовая фанера, специально разработанная для производства вырубных штампов.",
+            "uz": "Shtamplar ishlab chiqarish uchun maxsus ishlab chiqilgan 100% qayin fanerasi.",
+            "en": "100% birch plywood, specially developed for the production of cutting dies."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая фанера, специально разработанная для производства вырубных штампов (штанцформ или штанцевальных форм).<br/><br/>Продукт соответствует высочайшим стандартам отрасли и дает возможность производителям выбрать именно тот размер и тип покрытия, которые подойдут для производства разных типов штанцформ.<br/><br/>Также мы производим продукт SVEZA Laser Premium — фанеру с улучшенным качеством внутренних слоев. По остальным параметрам эти материалы идентичны.",
+            "uz": "Shtamplar (shtansformalar) ishlab chiqarish uchun maxsus ishlab chiqilgan 100% qayin fanerasi.<br/><br/>Mahsulot sohaning eng yuqori standartlariga javob beradi va ishlab chiqaruvchilarga har xil turdagi shtansformalar ishlab chiqarish uchun aynan mos keladigan o'lcham va qoplama turini tanlash imkonini beradi.<br/><br/>Shuningdek, biz SVEZA Laser Premium mahsulotini — ichki qatlamlari sifati yaxshilangan fanerani ham ishlab chiqaramiz. Qolgan parametrlar bo'yicha bu materiallar bir xil.",
+            "en": "100% birch plywood, specially developed for the production of cutting dies (die-cutting forms).<br/><br/>The product meets the highest industry standards and allows manufacturers to choose exactly the size and type of coating that are suitable for the production of different types of die-cutting forms.<br/><br/>We also produce SVEZA Laser Premium product — plywood with improved quality of the inner layers. In other parameters, these materials are identical."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 24,
+        "img": "/products/sveza24.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Laser UV Standard",
+            "uz": "SVEZA Laser UV Standard",
+            "en": "SVEZA Laser UV Standard"
+        },
+        "content": {
+            "ru": "100%-ная берёзовая фанера с UV-отверждаемым покрытием, специально разработанная для производства вырубных штампов.",
+            "uz": "Shtamplar ishlab chiqarish uchun maxsus ishlab chiqilgan, UV-qoplamali 100% qayin fanerasi.",
+            "en": "100% birch plywood with UV-curable coating, specially developed for the production of cutting dies."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая фанера с UV-отверждаемым покрытием, специально разработанная для производства вырубных штампов (штанцформ). Продукт с двух сторон обработан полупрозрачным покрытием, которое защищает поверхность SVEZA Laser UV Standard — продукт с улучшенным качеством внутренних слоев. По остальным параметрам SVEZA Laser Standard и SVEZA Laser Premium идентичны.",
+            "uz": "Shtamplar (shtansformalar) ishlab chiqarish uchun maxsus ishlab chiqilgan, UV-qoplamali 100% qayin fanerasi. Mahsulot ikki tomondan sirtni himoya qiluvchi yarim shaffof qoplama bilan ishlangan. SVEZA Laser UV Standard — ichki qatlamlari sifati yaxshilangan mahsulot. Qolgan parametrlar bo'yicha SVEZA Laser Standard va SVEZA Laser Premium bir xil.",
+            "en": "100% birch plywood with UV-curable coating, specially developed for the production of cutting dies (die-cutting forms). The product is processed on both sides with a translucent coating that protects the surface. SVEZA Laser UV Standard is a product with improved quality of internal layers. In other parameters, SVEZA Laser Standard and SVEZA Laser Premium are identical."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 25,
+        "img": "/products/sveza25.webp"
+    },
+    {
+        "name": {
+            "ru": "SVEZA Laser UV Premium",
+            "uz": "SVEZA Laser UV Premium",
+            "en": "SVEZA Laser UV Premium"
+        },
+        "content": {
+            "ru": "100%-ная берёзовая фанера с UV-отверждаемым покрытием, специально разработанная для производства вырубных штампов.",
+            "uz": "Shtamplar ishlab chiqarish uchun maxsus ishlab chiqilgan, UV-qoplamali 100% qayin fanerasi.",
+            "en": "100% birch plywood with UV-curable coating, specially developed for the production of cutting dies."
+        },
+        "description": {
+            "ru": "100%-ная берёзовая фанера с UV-отверждаемым покрытием, специально разработанная для производства вырубных штампов (штанцформ).<br/><br/>Продукт с двух сторон обработан полупрозрачным покрытием, которое защищает поверхность<br/><br/>SVEZA Laser UV Premium — продукт с улучшенным качеством внутренних слоев. По остальным параметрам SVEZA Laser Standard и SVEZA Laser Premium идентичны.",
+            "uz": "Shtamplar (shtansformalar) ishlab chiqarish uchun maxsus ishlab chiqilgan, UV-qoplamali 100% qayin fanerasi.<br/><br/>Mahsulot ikki tomondan sirtni himoya qiluvchi yarim shaffof qoplama bilan ishlangan.<br/><br/>SVEZA Laser UV Premium — ichki qatlamlari sifati yaxshilangan mahsulot. Qolgan parametrlar bo'yicha SVEZA Laser Standard va SVEZA Laser Premium bir xil.",
+            "en": "100% birch plywood with UV-curable coating, specially developed for the production of cutting dies (die-cutting forms).<br/><br/>The product is processed on both sides with a translucent coating that protects the surface.<br/><br/>SVEZA Laser UV Premium is a product with improved quality of internal layers. In other parameters, SVEZA Laser Standard and SVEZA Laser Premium are identical."
+        },
+        "category": "69a1272c4f7c8ee695a4d85e",
+        "_id": 26,
+        "img": "/products/sveza26.webp"
+    },
+    {
+        "name": {
             "uz": "DSP | DSP",
             "ru": "ДСП | ЛДСП",
             "en": "Chipboard"
@@ -197,266 +717,349 @@
         "status": true,
         "__v": 0
     },
+
     {
         "name": {
-            "uz": "Qayta ishlangan qayin taxtalari",
-            "ru": "Обработанные березовые доски",
-            "en": "Treated birch boards"
-        },
-        "description": {
-            "ru": "<p>Данный пиломатериал довольно легко поддается обработке и отделке. Кроме этого при распаривании ему свойственно хорошо гнуться. Обрезным березовым доскам свойственны такие характеристики, как:</p><br/><ul><li>повышенная прочность;</li><li>светлый оттенок древесины (благодаря тому, что березовая древесина отличается светлым цветом, ей при желании можно придавать множество всевозможных оттенков);</li><li>высокая степень устойчивости к гниению и негативным внешним воздействиям.</li></ul><br/><p>Как нам всем известно, береза представляет собой один из тяжелых сортов дерева, хотя по сравнению с дубом, березовая древесина будет гораздо мягче. Берёзу трудно расколоть, однако она весьма хорошо поддается обработке, поэтому, можно со всей уверенностью утверждать, что древесина березы в свое время была незаслуженно позабыта мастерами. В современном мире изделия, которые выполняются из такого материала, как доска обрезная береза, становятся не только популярными, но и часто используемыми. В производстве элитной мебели берёза считается одним из самых ценных материалов. Сегодня доска обрезная береза оценивается довольно высоко. Говоря об использовании обрезных березовых досок, хочется отметить, что такой пиломатериал как-то не слишком активно используется при возведении загородных домов, бань, парилок и саун. Вероятно, виной этому стало то, что доска обрезная береза отличается своей недолговечностью по сравнению со всеми остальными разновидностями необрезных и обрезных досок. По своей структуре берёза относится к сильноусыхающим породам деревьев. Кроме того структура березовой древесины при неправильно выполненной обработке может чрезмерно деформироваться. Также доска обрезная берёза сильно подвержена проникновению влаги, что неизменно влечет за собой развитие процессов гниения.</p>",
-            "uz": "<p>Ushbu yog'ochni qayta ishlash va tugatish juda oson. Bundan tashqari, uni bug'lash paytida egilishga moyil. Qirralarning qayin taxtalari quyidagi xususiyatlarga ega:</p><br/><br/><ul><li>ortgan kuch;</li><li>o'tinning engil soyasi (qayin yog'ochining turli xil bo'lishi sababli) ochiq rang, agar so'ralsa, siz unga barcha turdagi soyalarni bera olasiz);</li><li>parchalanish va salbiy tashqi ta'sirlarga nisbatan yuqori qarshilik.</li></ul><br/><br/><p>Barchamizga ma'lumki, qayin yog'ochning eng qattiq turlaridan biridir, ammo qayin eman bilan solishtirganda ancha yumshoqroq. Qayinni ajratish juda qiyin, lekin uni qayta ishlash juda yaxshi, shuning uchun qayin daraxtlari bir paytlar hunarmandlar tomonidan unutilgan deb aytish xavfsiz. Zamonaviy dunyoda, qayin taxtalarining qirralari kabi materiallar nafaqat mashhur, balki ko'pincha ishlatiladi. Hashamatli mebel ishlab chiqarishda qayin eng qimmatbaho materiallardan biridir. Bugungi kunda qirralari bo'lgan qayin taxtalari juda qadrlanadi. O'chirilgan qayin taxtalarini ishlatish haqida gap ketganda, shuni ta'kidlashni istardimki, bunday yog'och uylar, hammom, bug 'xonalari va saunalar qurishda ishlatilmaydi. Ehtimol, bu qayin taxtalarining qirralari boshqa barcha qirralar va qirralarga qaraganda ancha qisqa umrga ega bo'lishi bilan bog'liq. Tuzilishi bo'yicha, qayin juda quruq daraxt turidir. Bundan tashqari, qayin daraxtining tuzilishi noto'g'ri ishlov berish natijasida haddan tashqari deformatsiyalanishi mumkin. Bundan tashqari, qirralarning qayin taxtalari namlikning kirib borishiga juda sezgir bo'lib, bu doimiy çürüyen jarayonlarning rivojlanishiga olib keladi.</p>",
-            "en": "<p>This lumber is quite easy to process and finish. In addition, when steaming, it tends to bend well. Edged birch boards are characterized as:</p><br/><br/><ul><li>increased strength;</li><li>light shade of wood (due to the fact that birch wood has a light color, if desired, it can be given many different shades);</li><li>high degree of resistance to decay and negative external influences.</li></ul><br/><br/><p>As we all know, birch is one of the hardest types of wood, although compared to oak, birch wood will be much softer. Birch is difficult to split, but it lends itself very well for processing, therefore, it can be said with all confidence that birch wood was undeservedly forgotten by craftsmen at one time. In the modern world, products that are made from such material as edged birch board are becoming not only popular, but also frequently used. Birch is considered one of the most valuable materials in the production of luxury furniture. Today, edged birch board is highly valued. Speaking about the use of edged birch boards, it is important to note that such lumber is somehow not very actively used in the construction of country houses, baths, steam rooms and saunas. Probably, the reason for this was that the edged birch board is notable for its fragility compared to all other varieties of unedged and edged boards. According to its structure, birch belongs to the highly drying tree species. In addition, the structure of birch wood, if processed incorrectly, can be excessively deformed. Also, edged birch boards are highly susceptible to moisture penetration, which invariably entails the development of decay processes.</p>"
+            "ru": "SVEZA ДСП",
+            "uz": "SVEZA DSP",
+            "en": "SVEZA Chipboard"
         },
         "content": {
-            "uz": "Bugungi kunda eng keng tarqalgan qurilish materiallaridan biri bu qirralarning qayin taxtasi.",
-            "ru": "Одним из наиболее распространенных стройматериалов на сегодняшний день остается доска обрезная береза.",
-            "en": "One of the most common building materials today is the edged birch board."
+            "ru": "Конструкционный материал, изготовленный из берёзовой щепы и связующего вещества путём горячего прессования.",
+            "uz": "Issiq presslash orqali qayin payrahalari va bog'lovchi moddadan tayyorlangan konstruksion material.",
+            "en": "Structural material made of birch chips and a binder by hot pressing."
         },
-        "_id": "69a12da64f7c8ee695a4d87c",
-        "img": "/products/01_bereza.png",
-        "category": "69a127f14f7c8ee695a4d863",
+        "description": {
+            "ru": "Древесно-стружечные плиты (ДСП) SVEZA — это конструкционный материал, изготовленный из берёзовой щепы и связующего вещества путём горячего прессования.",
+            "uz": "SVEZA yog'och-payrahalar plitasi (DSP) — bu issiq presslash orqali qayin payrahalari va bog'lovchi moddadan tayyorlangan konstruksion materialdir.",
+            "en": "SVEZA chipboards (DSP) are a structural material made of birch chips and a binder by hot pressing."
+        },
+        "_id": "1d",
+        "img": "/products/dsp1.webp",
+        "category": "69a127894f7c8ee695a4d861",
         "status": true,
         "__v": 0
     },
     {
         "name": {
-            "ru": "SVEZA ФСФ",
-            "uz": "",
-            "en": ""
+            "ru": "SVEZA ЛДСП Бежевый",
+            "uz": "SVEZA LDSP Bej",
+            "en": "SVEZA Laminated Chipboard Beige"
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
         "content": {
-            "ru": "Высококачественная фанера из 100% берёзовой древесины обладает высокими показателями прочности и влагостойкости. Используется как для внутренних, так и для наружных работ.",
-            "uz": "",
-            "en": ""
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
         },
         "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/><br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir. LDSP sirti turli tekstura va dekorlarni birlashtiradi. <br/><br/>Asos-plitani laminatlash materialga qo'shimcha mustahkamlik, ishqalanishga chidamlilik, namlik va harorat o'zgarishlariga bardoshlilik beradi. <br/><br/>Saytda taqdim etilgan dekor namunalarining ranglari monitoringiz sozlamalariga qarab o'zgarishi mumkin. Assortiment bilan tanishish uchun bepul namunalarga buyurtma berishingiz mumkin.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint. The surface of LDSP combines various textures and decors. <br/><br/>Laminating the core board gives the material additional strength, abrasion resistance, and resistance to moisture and temperature changes. <br/><br/>Color rendering of the samples may vary depending on monitor settings. You can order free samples to better understand our range."
         },
-        "_id": 1,
-        "img": "/products/sveza1.webp"
+        "_id": "2d",
+        "img": "/products/dsp2.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
     },
     {
         "name": {
-            "ru": "SVEZA ФК",
-            "uz": "",
-            "en": ""
+            "ru": "SVEZA ЛДСП Белый",
+            "uz": "SVEZA LDSP Oq",
+            "en": "SVEZA Laminated Chipboard White"
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
         "content": {
-            "ru": "Высококачественный конструкционный материал, обладающий высокой прочностью и привлекательным внешним видом поверхности. Оптимально подходит для внутренних работ. ",
-            "uz": "",
-            "en": ""
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
         },
         "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir. <br/><br/>Asos-plitani laminatlash materialga qo'shimcha mustahkamlik va chidamlilik beradi.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint. <br/><br/>Laminating the core board gives the material additional strength and durability."
         },
-        "_id": 2,
-        "img": "/products/sveza2.webp"
+        "_id": "3d",
+        "img": "/products/dsp3.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
     },
     {
         "name": {
-            "ru": "SVEZA UV",
-            "uz": "",
-            "en": ""
+            "ru": "SVEZA ЛДСП Бодега Светлая",
+            "uz": "SVEZA LDSP Bodega Och",
+            "en": "SVEZA Laminated Chipboard Bodega Light"
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
         "content": {
-            "ru": "Фанера с инновационным многослойным UV-отверждаемым покрытием для придания поверхности особых декоративных свойств.",
-            "uz": "",
-            "en": ""
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
         },
         "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
         },
-        "_id": 3,
-        "img": "/products/sveza3.webp"
+        "_id": "4d",
+        "img": "/products/dsp4.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Бодега Темная",
+            "uz": "SVEZA LDSP Bodega To'q",
+            "en": "SVEZA Laminated Chipboard Bodega Dark"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "5d",
+        "img": "/products/dsp5.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Бук Вестфален",
+            "uz": "SVEZA LDSP Buk Vestfalen",
+            "en": "SVEZA Laminated Chipboard Beech Westphalen"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "6d",
+        "img": "/products/dsp6.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Бук Бавария Светлый",
+            "uz": "SVEZA LDSP Buk Bavariya Och",
+            "en": "SVEZA Laminated Chipboard Beech Bavaria Light"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "7d",
+        "img": "/products/dsp7.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Бук Невский",
+            "uz": "SVEZA LDSP Buk Nevskiy",
+            "en": "SVEZA Laminated Chipboard Beech Nevsky"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "8d",
+        "img": "/products/dsp8.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Венге Конго",
+            "uz": "SVEZA laminatlangan DSP Wenge Congo",
+            "en": "SVEZA laminated chipboard Wenge Congo"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "9d",
+        "img": "/products/dsp9.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Венге Светлый",
+            "uz": "SVEZA LDSP Venge Och",
+            "en": "SVEZA Laminated Chipboard Wenge Light"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "10d",
+        "img": "/products/dsp10.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Венге Цаво",
+            "uz": "SVEZA LDSP Venge Tsavo",
+            "en": "SVEZA Laminated Chipboard Wenge Tsavo"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "11d",
+        "img": "/products/dsp11.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
+    },{
+        "name": {
+            "ru": "SVEZA ЛДСП Винтерберг",
+            "uz": "SVEZA LDSP Viniterberg",
+            "en": "SVEZA Laminated Chipboard Winterberg"
+        },
+        "content": {
+            "ru": "Плита-основа, покрытая качественными меламиновыми пленками. ",
+            "uz": "Yuqori sifatli melamin plyonkalari bilan qoplangan asos-plita.",
+            "en": "Core board covered with high-quality melamine films."
+        },
+        "description": {
+            "ru": "Ламинированная древесно-стружечная плита (ЛДСП) SVEZA — это плита-основа, покрытая качественными меламиновыми плёнками мировых лидеров — Schattdecor, Impress и Interprint. Поверхность ЛДСП сочетает различные текстуры и декоры. <br/><br/><br/>Ламинирование плиты-основы придает материалу дополнительную прочность, стойкость к истиранию, устойчивость к воздействию влаги и перепадам температуры. <br/><br/>Цветопередача представленных на сайте образцов декоров ЛДСП может меняться в зависимости от настроек вашего монитора. Для более корректного ознакомления с ассортиментом выпускаемой нашей компанией продукции вы можете заказать у нас бесплатные образцы:<br/>– в виде вееров с образцами пленки;<br/>– в виде натурных образцов ЛДСП (если этот декор стоит в наших ближайших производственных планах).",
+            "uz": "SVEZA laminatlangan yog'och-payrahalar plitasi (LDSP) — bu dunyodagi yetakchi Schattdecor, Impress va Interprint kompaniyalarining yuqori sifatli melamin plyonkalari bilan qoplangan asos-plitadir.",
+            "en": "SVEZA laminated chipboard (LDSP) is a core board covered with high-quality melamine films from world leaders — Schattdecor, Impress and Interprint."
+        },
+        "_id": "12d",
+        "img": "/products/dsp12.webp",
+        "category": "69a127894f7c8ee695a4d861",
+        "status": true,
+        "__v": 0
     },
     {
-        "name": {
-            "ru": "SVEZA Parquet Standard",
-            "uz": "",
-            "en": ""
+        "name":{
+            "ru":"Топливные брикеты RUF",
+            "uz":"RUF yonilg'i briketlari",
+            "en":"RUF fuel briquettes"
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "content": {
-            "ru": "Высокопрочная белая фанера, калиброванная для производства паркетной доски. ",
-            "uz": "",
-            "en": ""
+        "content":{
+            "ru":"Экологически чистый вид твёрдого топлива из 100%-ной берёзовой пыли, без связующих добавок.",
+            "uz":"100% qayin changidan tayyorlangan, bog'lovchi qo'shimchalarsiz ekologik toza qattiq yonilg'i turi.",
+            "en":"Ecological type of solid fuel made from 100% birch dust, without binding additives."
         },
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+        "description":{
+            "ru":"Экологически чистый вид твёрдого топлива. Производится из 100% берёзовой пыли, без связующих добавок <br/><br/>Топливные брикеты — практичный, безопасный и экономически выгодный вид топлива.",
+            "uz":"Ekologik toza qattiq yonilg'i turi. 100% qayin changidan, bog'lovchi qo'shimchalarsiz ishlab chiqariladi. Yonilg'i briketlari — amaliy, xavfsiz va iqtisodiy jihatdan foydali yonilg'i turidir.",
+            "en":"Ecological type of solid fuel. Produced from 100% birch dust, without binding additives. Fuel briquettes are a practical, safe and cost-effective type of fuel."
         },
-        "_id": 4,
-        "img": "/products/sveza4.webp"
+         "_id": "1b",
+        "img": "/products/bio1.webp",
+        "category": "69a127f14f7c8ee695a4d863",
+        "status": true,
+        "__v": 0
     },
     {
-        "name": {
-            "ru": "SVEZA Parquet Premium",
-            "uz": "",
-            "en": ""
+        "name":{
+            "ru":"Дрова берёзовые",
+            "uz":"Qayin o'tini",
+            "en":"Birch firewood"
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "content": {
-            "ru": "Высокопрочная белая фанера, калиброванная для производства паркетной доски. ",
-            "uz": "",
-            "en": ""
+        "content":{
+            "ru":"Дрова из 100% берёзовой древесины.",
+            "uz":"100% qayin yog'ochidan o'tin.",
+            "en":"Firewood from 100% birch wood."
         },
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+        "description":{
+            "ru":"Дрова из 100%-ной берёзовой древесины.",
+            "uz":"100% qayin yog'ochidan o'tin.",
+            "en":"Firewood from 100% birch wood."
         },
-        "_id": 5,
-        "img": "/products/sveza5.webp"
+         "_id": "2b",
+        "img": "/products/bio2.webp",
+        "category": "69a127f14f7c8ee695a4d863",
+        "status": true,
+        "__v": 0
     },
     {
-        "name": {
-            "ru": "SVEZA Drawer",
-            "uz": "",
-            "en": ""
+        "name":{
+            "ru":"Дрова берёзовые неколотые",
+            "uz":"Yorilmagan qayin o'tini",
+            "en":"Unsplit birch firewood"
         },
-        "content": {
-            "ru": "Специальная фанера для изготовления деталей ящиков и других компонентов мебели, предполагающих раскрой, фрезерование и механическую обработку пластей и кромок.",
-            "uz": "",
-            "en": ""
+        "content":{
+            "ru":"Срезка с торцов 100% берёзовой древесины.",
+            "uz":"100% qayin yog'ochining chetlaridan qirqilgan qismlari.",
+            "en":"Trimmings from the ends of 100% birch wood."
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+        "description":{
+            "ru":"Срезка с торцов 100% берёзовой древесины.",
+            "uz":"100% qayin yog'ochining chetlaridan qirqilgan qismlari.",
+            "en":"Trimmings from the ends of 100% birch wood."
         },
-        "_id": 6,
-        "img": "/products/sveza6.webp"
+         "_id": "3b",
+        "img": "/products/bio3.webp",
+        "category": "69a127f14f7c8ee695a4d863",
+        "status": true,
+        "__v": 0
     },
     {
-        "name": {
-            "ru": "SVEZA Overlay Standard",
-            "uz": "",
-            "en": ""
+        "name":{
+            "ru":"Карандаш берёзовый",
+            "uz":"Qayin qalami",
+            "en":"Birch core"
         },
-        "content": {
-            "ru": "Специальная фанера для облицовывания различными материалами. ",
-            "uz": "",
-            "en": ""
+        "content":{
+            "ru":"Центральная часть берёзовой древесины, которая образуется в процессе производства фанеры.",
+            "uz":"Fanera ishlab chiqarish jarayonida hosil bo'ladigan qayin yog'ochining markaziy qismi.",
+            "en":"The central part of birch wood that is formed during the plywood production process."
         },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
+        "description":{
+            "ru":"Центральная часть берёзовой древесины, образующаяся при производстве фанеры. Отличный материал для отопления.",
+            "uz":"Fanera ishlab chiqarishda hosil bo'ladigan qayin yog'ochining markaziy qismi. Isitish uchun ajoyib material.",
+            "en":"The central part of birch wood produced in plywood manufacturing. Excellent material for heating."
         },
-        "_id": 7,
-        "img": "/products/sveza7.webp"
-    },
-    {
-        "name": {
-            "ru": "SVEZA Overlay Premium",
-            "uz": "",
-            "en": ""
-        },
-        "content": {
-            "ru": "Специальная фанера для облицовывания различными материалами. ",
-            "uz": "",
-            "en": ""
-        },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
-        },
-        "_id": 8,
-        "img": "/products/sveza8.webp"
-    },
-    {
-        "name": {
-            "ru": "SVEZA Color",
-            "uz": "",
-            "en": ""
-        },
-        "content": {
-            "ru": "Ламинированная фанера со специальным цветным износостойким покрытием. ",
-            "uz": "",
-            "en": ""
-        },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
-        },
-        "_id": 9,
-        "img": "/products/sveza9.webp"
-    },
-    {
-        "name": {
-            "ru": "SVEZA Toy",
-            "uz": "",
-            "en": ""
-        },
-        "content": {
-            "ru": "Ламинированная фанера со специальным цветным износостойким покрытием. ",
-            "uz": "",
-            "en": ""
-        },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
-        },
-        "_id": 10,
-        "img": "/products/sveza10.webp"
-    },
-    {
-        "name": {
-            "ru": "SVEZA LVL",
-            "uz": "",
-            "en": ""
-        },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "content": {
-            "ru": "Однонаправленная 100%-ная берёзовая фанера для элементов мебели. ",
-            "uz": "",
-            "en": ""
-        },
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
-        },
-        "_id": 11,
-        "img": "/products/sveza11.webp"
-    },
-    {
-        "name": {
-            "ru": "SVEZA Puzzle",
-            "uz": "",
-            "en": ""
-        },
-        "content": {
-            "ru": "Идеальная фанера премиум класса для лазерной вырезки сложных и точных моделей. ",
-            "uz": "",
-            "en": ""
-        },
-        "category": "69a1272c4f7c8ee695a4d85e",
-        "description": {
-            "ru": "",
-            "uz": "",
-            "en": ""
-        },
-        "_id": 12,
-        "img": "/products/sveza12.webp"
+         "_id": "4b",
+        "img": "/products/bio4.webp",
+        "category": "69a127f14f7c8ee695a4d863",
+        "status": true,
+        "__v": 0
     }
 ]

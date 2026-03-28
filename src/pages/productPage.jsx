@@ -70,10 +70,10 @@ function ProductPage({
                                   : "Product Details"}
                             </nav>
 
-                            <h1 className=" md:text-3xl text-xl font-bold text-gray-900 mb-4">
+                            <h1 className=" md:text-3xl text-xl font-bold text-[#F58220] mb-4">
                               {Lang(product.name)}
                             </h1>
-                            <p className="text-gray-600 md:text-xl text-[16px] leading-relaxed mb-6">
+                            <p className="text-gray-600 md:text-[18px] text-[15px] leading-relaxed mb-6">
                               {Lang(product.content)}
                             </p>
                           </div>
